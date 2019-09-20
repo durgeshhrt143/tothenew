@@ -1,0 +1,10 @@
+@import "Colors";
+@import "Mixins";
+@import "Header";
+@import "Footer";
+@import "Home";
+@import "Services";
+@import "Solutions";
+* {
+  @include transitionAll(all 0.5s ease);
+}

@@ -1,0 +1,58 @@
+.top {
+  border-top: 1px solid $borderColor;
+  padding: 40px 0;
+  p {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: $darkgrayColor;
+    @include transitionAll(all 0.5s ease);
+    margin-bottom: 15px;
+  }
+  a {
+    color: $darkgrayColor;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 5px;
+    &:hover {
+      color: $pinkColor;
+    }
+  }
+}
+.bottom {
+  background: $grayshadeColor;
+  h3 {
+    text-align: center;
+    color: $whiteColor;
+  }
+  .columns {
+    flex-wrap: wrap;
+  }
+  .is-left {
+    color: $grayColor;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .is-right {
+    li {
+      display: inline-block;
+    }
+    a {
+      color: $grayColor;
+
+      font-size: 12px;
+      display: inline-block;
+      padding: 0 5px;
+      border-right: 1px solid $darkgrayColor;
+      line-height: 14px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+.is-service {
+  cursor: pointer;
+}

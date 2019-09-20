@@ -1,0 +1,151 @@
+header {
+  position: relative;
+  z-index: 9999;
+}
+.sticky {
+  .header {
+    &.one {
+      opacity: 1;
+      border-bottom: 1px solid $borderColor;
+      background: $whiteColor;
+      transform: translateY(0);
+      padding: 0;
+      li {
+        a {
+          color: $defaultColor;
+        }
+        &:nth-child(8) {
+          border: 1px solid $pinkColor;
+          padding: 5px 18px;
+
+          a {
+            color: $pinkColor !important;
+          }
+        }
+      }
+    }
+    &.two {
+      opacity: 0;
+    }
+  }
+}
+.logo {
+  background: url("../images/logo.png") no-repeat 1px 0;
+  display: inline-block;
+  width: 150px;
+  height: 70px;
+  text-indent: -999px;
+  &.logo2 {
+    background: url("../images/logo.png") no-repeat -197px 0;
+  }
+}
+
+.header {
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 9;
+  &.one {
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    li {
+      display: inline-block;
+      padding: 0 10px;
+      a {
+        color: $whiteColor;
+        text-transform: uppercase;
+        font-size: 14px;
+        &:hover {
+          color: $pinkColor;
+        }
+      }
+    }
+  }
+}
+
+.align-item {
+  align-items: stretch;
+}
+.header {
+  &.one {
+    .search {
+      a {
+        background-position: -14px, 15px !important;
+        height: 49px;
+        display: inline-block;
+      }
+      &:after {
+        background: $defaultColor !important;
+      }
+      &:before {
+        background: $defaultColor !important;
+      }
+    }
+  }
+}
+.search {
+  a {
+    font-size: 0px !important;
+    background: url("../images/search-btn.png") no-repeat -14px -26px;
+    background-size: 160%;
+    width: 28px;
+    height: 37px;
+    display: inline-block;
+  }
+  cursor: pointer;
+  position: relative;
+
+  &:after {
+    display: inline-block;
+    content: "";
+    width: 2px;
+    height: 18px;
+    background: $whiteColor;
+    transform: rotate(-45deg) translateY(25px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  &:before {
+    display: inline-block;
+    content: "";
+    width: 2px;
+    height: 18px;
+    background: $whiteColor;
+    transform: rotate(42deg) translateX(25px);
+    position: absolute;
+    left: 0;
+    top: 1px;
+    opacity: 0;
+  }
+}
+
+.open-search {
+  .nav-bar {
+    opacity: 0;
+    transform: scale(0);
+  }
+  .search {
+    &:after {
+      opacity: 1;
+    }
+    &:before {
+      opacity: 1;
+    }
+    a {
+      background: none;
+    }
+  }
+}
+
+.is-search-con {
+  justify-content: flex-start !important;
+}

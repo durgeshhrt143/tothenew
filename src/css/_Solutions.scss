@@ -1,0 +1,31 @@
+.solution-con {
+  padding: 40px 0;
+  h1 {
+    font-size: 42px;
+    font-family: "MuseoSans-300", Open Sans;
+    color: $defaultColor;
+    text-transform: capitalize;
+  }
+  p {
+    font-size: 18px;
+    color: $defaultColor;
+    line-height: 1.7;
+    padding-top: 14px;
+  }
+}
+.solutions-item {
+  h3 {
+    font-size: 30px;
+    line-height: 34px;
+    letter-spacing: inherit;
+    padding-bottom: 5px;
+    line-height: normal;
+    color: $defaultColor;
+  }
+}
+.solution-heading {
+  color: $pinkColor;
+  font-weight: 400;
+  padding: 0 5px;
+  display: inline-block;
+}

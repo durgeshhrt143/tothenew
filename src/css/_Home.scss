@@ -1,0 +1,238 @@
+body {
+  color: $defaultColor;
+}
+.is-our-insights {
+  padding: 40px 0;
+}
+.is-insights-heading {
+  font-size: 42px;
+  letter-spacing: 1px;
+  color: $defaultColor;
+}
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.big {
+  min-width: 230px;
+}
+.pink {
+  background: $pinkColor;
+  color: $whiteColor;
+  padding: 11px 0;
+  &:hover {
+    background: $pinkhoverColor;
+    color: $whiteColor;
+  }
+}
+.is-blog {
+  font-size: 14px;
+  color: $lightgrayColor;
+  color: $defaultColor;
+  .is-blog-heading {
+    font-size: 14px;
+    color: $defaultColor;
+    margin: 0;
+  }
+  .blog-heading {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  p {
+    color: $darkgrayColor;
+    font-size: 16px;
+    margin-bottom: 35px;
+  }
+}
+.white-btn {
+  padding: 10px 35px;
+  border: 1px solid $pinkColor;
+  color: $pinkColor;
+  @include transitionAll(all 0.5s ease);
+  &:hover {
+    background: $pinkColor;
+    color: $whiteColor;
+  }
+}
+.is-our-client {
+  background: url("../images/clients_bg.jpg");
+  background-size: cover;
+  padding: 53px 0 40px;
+  h3 {
+    font-size: 42px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    line-height: 1.1;
+    color: $whiteColor;
+  }
+  p {
+    font-size: 16px;
+    color: $whiteColor;
+  }
+}
+.is-column {
+  flex-flow: wrap column;
+}
+.is-row {
+  flex-flow: wrap row;
+}
+.is-insights {
+  background: $bgColor;
+  padding: 40px 0;
+  h3 {
+    font-size: 42px;
+    margin-top: 0;
+    line-height: 1.1;
+  }
+  & > p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+
+.is-insights-con {
+  @include boxShadow(0 0 6px rgba(230, 230, 230, 0.34));
+  background: $whiteColor;
+  padding: 12px;
+}
+.insights-heading {
+  color: $pinkColor;
+  font-size: 12px;
+}
+.insights-content {
+  font-size: 14px;
+}
+.is-technologies {
+  background: url("../images/technology-bg.jpg") no-repeat 0 0;
+  background-size: cover;
+  color: $whiteColor;
+  padding: 40px 0;
+  h3 {
+    font-size: 42px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    line-height: 1.1;
+  }
+  p {
+    font-size: 18px;
+    margin: 0 0 30px;
+  }
+}
+.technologies-btn {
+  border: 2px solid $whiteColor !important;
+  color: $whiteColor !important;
+  padding: 10px 35px;
+  @include transitionAll(all 0.5s ease-in-out);
+  &:hover {
+    border: 2px solid $pinkColor !important;
+    background: $pinkColor !important;
+  }
+}
+.is-success-stories {
+  background: #f9f7f1;
+  padding: 53px 0 60px;
+  text-align: center;
+  h3 {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+  p {
+    font-size: 18px;
+    margin: 0;
+  }
+}
+.is-slider-below {
+  padding: 40px 0;
+  .is-row {
+    li {
+      border-right: 1px solid $borderColor;
+      &:nth-child(2) {
+        border: 0;
+      }
+    }
+  }
+}
+.is-slider-below-content {
+  font-size: 18px;
+}
+.is-slider-below-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.is-slider-below-heading {
+  font-size: 20px;
+  margin: 25px 0 12px;
+}
+.is-slider-below-con {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #687178;
+}
+.bg {
+  &:after {
+    display: inline-block;
+    content: "";
+    background: rgba(27, 40, 53, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+}
+.carousel {
+  &.carousel-slider {
+    height: 100vh;
+  }
+}
+.slider-main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.slider-con {
+  z-index: 9999;
+  position: absolute;
+  display: flex;
+  flex-flow: wrap row;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  width: 1152px;
+
+  h3 {
+    font: 40px "MuseoSans-300", Open Sans;
+    margin: 0 0 12px 0;
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+    color: $whiteColor;
+  }
+  h2 {
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    margin-bottom: 30px;
+    margin-top: 0;
+    line-height: 1.5;
+    color: $whiteColor;
+  }
+}
+.btn.know-btn {
+  border: 1px solid $whiteColor;
+  color: $whiteColor;
+  min-width: 177px;
+  &:hover {
+    border: 1px solid $pinkColor;
+    background: $pinkColor;
+  }
+}
