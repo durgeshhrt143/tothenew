@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const Technologies = props => {
   return (
     <section className="is-technologies has-text-centered">
@@ -14,7 +15,9 @@ const Technologies = props => {
               web applications. Some of the technologies that we have mastered
               include Grails, Angular.js, Node.js, and React to name a few.
             </p>
-            <a className="btn technologies-btn">View All Technologies</a>
+            <Link to={`/technologies`} className="btn technologies-btn">
+              View All Technologies
+            </Link>
           </div>
         </div>
       </div>

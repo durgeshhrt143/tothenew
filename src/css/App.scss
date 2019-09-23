@@ -5,6 +5,11 @@
 @import "Home";
 @import "Services";
 @import "Solutions";
+@import "Technologies";
+@import "Success";
+@import "Insights";
+@import "Contact";
+@import "Jobs";
 * {
   @include transitionAll(all 0.5s ease);
 }

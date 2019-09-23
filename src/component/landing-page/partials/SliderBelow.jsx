@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../../../images/DigitalTransformation.png";
+import { Link } from "react-router-dom";
 const SliderBelow = props => {
   return (
     <section className="is-slider-below has-text-centered">
@@ -38,7 +39,9 @@ const SliderBelow = props => {
                 </p>
               </li>
               <div className="column">
-                <a className="btn white-btn">View all services</a>
+                <Link to={`/services`} className="btn white-btn">
+                  View all services
+                </Link>
               </div>
             </ul>
           </div>

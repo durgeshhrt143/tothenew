@@ -1,0 +1,18 @@
+.insights-cantainer {
+  padding: 40px 0;
+  border-bottom: 1px solid $borderColor;
+  background: $fbgColor;
+  .box {
+    border-radius: 0px;
+    padding: 8px;
+    margin: 0.75rem;
+  }
+}
+.insights-title {
+  font-size: 14px;
+  color: $pinkColor;
+}
+.insights-con {
+  font-size: 16px;
+  color: $defaultColor;
+}

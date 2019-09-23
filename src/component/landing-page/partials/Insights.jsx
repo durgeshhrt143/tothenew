@@ -1,5 +1,6 @@
 import React from "react";
 import one from "../../../images/300_232.png";
+import { Link } from "react-router-dom";
 const Insights = props => {
   return (
     <section className="is-insights">
@@ -64,7 +65,9 @@ const Insights = props => {
         </ul>
         <div className="columns">
           <div className="column has-text-centered">
-            <a className="btn white-btn">Get More Insights</a>
+            <Link to={`/insights`} className="btn white-btn">
+              Get More Insights
+            </Link>
           </div>
         </div>
       </div>

@@ -1,0 +1,43 @@
+.success-container {
+  padding: 40px 0;
+  border-bottom: 1px solid $borderColor;
+  background: $fbgColor;
+  .box {
+    background-color: $whiteColor;
+    border-radius: 0;
+    @include boxShadow(0 2px 3px rgba(10, 10, 10, 0.1));
+    color: transparent;
+    display: block;
+    padding: 0;
+    margin-bottom: 1.4rem;
+    .data-img {
+      padding-top: 0px;
+    }
+  }
+}
+.data-img {
+  position: relative;
+  .data-thumbs {
+    position: absolute;
+    z-index: 9999;
+    bottom: -1.5rem;
+    display: inline-block;
+    left: 1.5rem;
+    background: $whiteColor;
+    img {
+      max-width: 150px;
+      display: inline-block;
+    }
+  }
+}
+.text-con {
+  padding: 0.75rem;
+  color: $darkgrayColor;
+}
+.data-con {
+  font-size: 16px;
+}
+.data-tags {
+  font-size: 12px;
+  color: $pinkColor;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../../images/time-warner-cable.jpg";
+import img from "../../images/time-warner-cable.jpg";
 const OurClients = props => {
   return (
     <section className="is-our-client">

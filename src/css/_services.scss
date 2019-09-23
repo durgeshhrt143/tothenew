@@ -36,6 +36,11 @@
     height: 100%;
     z-index: 9;
   }
+  img {
+    display: inherit;
+    object-fit: cover;
+    width: 100%;
+  }
 }
 .hero-banner {
   position: relative;

@@ -3,7 +3,7 @@ import Alibaba from "../../../images/Alibaba_Cloud _ Home_Page.jpg";
 import westcon from "../../../images/westcon_450_261.jpg";
 import warner from "../../../images/warner.jpg";
 import matse from "../../../images/matse.jpg";
-
+import { Link } from "react-router-dom";
 const SuccessStories = props => {
   return (
     <section className="is-success-stories">
@@ -36,7 +36,9 @@ const SuccessStories = props => {
       </div>
       <div className="columns">
         <div className="column">
-          <a className="btn white-btn">Read All Success Stories</a>
+          <Link to={`/success-stories`} className="btn white-btn">
+            Read All Success Stories
+          </Link>
         </div>
       </div>
     </section>

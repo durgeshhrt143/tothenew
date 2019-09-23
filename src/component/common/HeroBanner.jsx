@@ -1,25 +1,22 @@
 import React from "react";
-import Services from "../../images/services.jpg";
-const HeroBanner = props => {
+import { Link } from "react-router-dom";
+const HeroBanner = ({ img, title, content, page }) => {
   return (
     <section className="hero-banner">
       <div className="overflow-bg">
-        <img src={Services} alt="Services" />
+        <img src={img} alt={img} />
       </div>
       <div className="text-con">
         <div className="container">
           <div className="columns is-row">
-            <h1 className="column is-12">Services</h1>
-            <p className="column is-12">
-              Agility combined with design-­led engineering, cloud and analytics
-              driven marketing results in great products, faster
-            </p>
+            <h1 className="column is-12">{title}</h1>
+            <p className="column is-12">{content}</p>
             <div className="column is-12">
               <ul className="is-breadcrumb">
                 <li>
-                  <a>Home</a>
+                  <Link to={`/`}>Home</Link>
                 </li>
-                <li>services</li>
+                <li>{page}</li>
               </ul>
             </div>
           </div>

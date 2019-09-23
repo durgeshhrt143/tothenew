@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import flogo from "../../images/footer-logo.png";
+
 class Footer extends Component {
   state = {
     toggle: false
@@ -18,31 +20,31 @@ class Footer extends Component {
                 <h3> Who We Are</h3>
                 <ul>
                   <li>
-                    <a>About</a>
+                    <Link to={`/about-us`}>About</Link>
                   </li>
                   <li>
-                    <a>Leadership</a>
+                    <Link to={`/leadership`}>Leadership</Link>
                   </li>
                   <li>
-                    <a>Partners</a>
+                    <Link to={`/partnership`}>Partners</Link>
                   </li>
                   <li>
-                    <a>Press Releases</a>
+                    <Link to={`/press-releases`}>Press Releases</Link>
                   </li>
                   <li>
-                    <a>Awards</a>
+                    <Link to={`/awards`}>Awards</Link>
                   </li>
                   <li>
-                    <a>Media Coverage</a>
+                    <Link to={`/media-coverage`}>Media Coverage</Link>
                   </li>
                   <li>
-                    <a>Events</a>
+                    <Link to={`/events`}>Events</Link>
                   </li>
                   <li>
-                    <a>CSR</a>
+                    <Link to={`/our-social-impact`}>CSR</Link>
                   </li>
                   <li>
-                    <a> Privacy Policy</a>
+                    <Link to={`/privacy-policy`}> Privacy Policy</Link>
                   </li>
                 </ul>
               </div>
@@ -50,19 +52,19 @@ class Footer extends Component {
                 <h3>What We Do</h3>
                 <ul>
                   <li>
-                    <a>Services</a>
+                    <Link to={`/services`}>Services</Link>
                   </li>
                   <li>
-                    <a>Technologies</a>
+                    <Link to={`/technologies`}>Technologies</Link>
                   </li>
                   <li>
-                    <a>Success Stories</a>
+                    <Link to={`/success-stories`}>Success Stories</Link>
                   </li>
                   <li>
-                    <a>Solutions</a>
+                    <Link to={`/solutions`}>Solutions</Link>
                   </li>
                   <li>
-                    <a>Industries</a>
+                    <Link to={`/industries`}>Industries</Link>
                   </li>
                 </ul>
               </div>
@@ -70,10 +72,10 @@ class Footer extends Component {
                 <h3>Knowledge</h3>
                 <ul>
                   <li>
-                    <a>Blog</a>
+                    <Link to={`/blog`}>Blog</Link>
                   </li>
                   <li>
-                    <a>Insights</a>
+                    <Link to={`/insights`}>Insights</Link>
                   </li>
                 </ul>
               </div>
@@ -82,16 +84,16 @@ class Footer extends Component {
 
                 <ul>
                   <li>
-                    <a>Request for Services</a>
+                    <Link to={`/contact-us`}>Request for Services</Link>
                   </li>
                   <li>
-                    <a>Join us!</a>
+                    <Link to={`/contact-us`}>Join us!</Link>
                   </li>
                   <li>
-                    <a>Media Queries</a>
+                    <Link to={`/contact-us`}>Media Queries</Link>
                   </li>
                   <li>
-                    <a>Career</a>
+                    <Link to={`/jobs`}>Career</Link>
                   </li>
                 </ul>
               </div>
@@ -117,43 +119,43 @@ class Footer extends Component {
                   <div className="column is-9 is-right">
                     <ul>
                       <li>
-                        <a>Email Marketing</a>
+                        <Link to={`/`}>Email Marketing</Link>
                       </li>
                       <li>
-                        <a>Search Engine Optimization</a>
+                        <Link to={`/`}>Search Engine Optimization</Link>
                       </li>
                       <li>
-                        <a>Marketing Automation</a>
+                        <Link to={`/`}>Marketing Automation</Link>
                       </li>
                       <li>
-                        <a>Social Listening</a>
+                        <Link to={`/`}>Social Listening</Link>
                       </li>
                       <li>
-                        <a>Digital Analytics</a>
+                        <Link to={`/`}>Digital Analytics</Link>
                       </li>
                       <li>
-                        <a>Web Analytics</a>
+                        <Link to={`/`}>Web Analytics</Link>
                       </li>
                       <li>
-                        <a>Digital Marketing</a>
+                        <Link to={`/`}>Digital Marketing</Link>
                       </li>
                       <li>
-                        <a>Influencer Marketing</a>
+                        <Link to={`/`}>Influencer Marketing</Link>
                       </li>
                       <li>
-                        <a>Content Marketing</a>
+                        <Link to={`/`}>Content Marketing</Link>
                       </li>
                       <li>
-                        <a>Social Media Marketing</a>
+                        <Link to={`/`}>Social Media Marketing</Link>
                       </li>
                       <li>
-                        <a>Creative Strategy</a>
+                        <Link to={`/`}>Creative Strategy</Link>
                       </li>
                       <li>
-                        <a>Digital Campaigns and Activations</a>
+                        <Link to={`/`}>Digital Campaigns and Activations</Link>
                       </li>
                       <li>
-                        <a>Media planning and buying</a>
+                        <Link to={`/`}>Media planning and buying</Link>
                       </li>
                     </ul>
                   </div>

@@ -10,7 +10,7 @@ class Header extends Component {
       this.state.toggle === false ? !this.state.toggle : false;
     this.setState({ toggle: toggleClass });
   };
-  componentDidMount() {
+  async componentDidMount() {
     window.addEventListener("scroll", () => {
       const isTop = window.scrollY < 100;
       if (isTop !== true) {
@@ -41,25 +41,25 @@ class Header extends Component {
                     <NavLink to={`/services`}>Services</NavLink>
                   </li>
                   <li>
-                    <NavLink to={`/`}>Industries</NavLink>
+                    <NavLink to={`/industries`}>Industries</NavLink>
                   </li>
                   <li>
-                    <NavLink to={`/`}>Solutions</NavLink>
+                    <NavLink to={`/solutions`}>Solutions</NavLink>
                   </li>
                   <li>
-                    <NavLink to={`/`}>Technologies</NavLink>
+                    <NavLink to={`/technologies`}>Technologies</NavLink>
                   </li>
                   <li>
-                    <NavLink to={`/`}>Success Stories</NavLink>
+                    <NavLink to={`/success-stories`}>Success Stories</NavLink>
                   </li>
                   <li>
-                    <NavLink to={`/`}>insights</NavLink>
+                    <NavLink to={`/insights`}>insights</NavLink>
                   </li>
                   <li>
-                    <NavLink to={`/`}>career</NavLink>
+                    <NavLink to={`/jobs`}>career</NavLink>
                   </li>
                   <li>
-                    <NavLink to={`/`}>contact us</NavLink>
+                    <NavLink to={`/contact-us`}>contact us</NavLink>
                   </li>
                 </ul>
                 <ul className="column is-1 is-search-con">
@@ -84,25 +84,25 @@ class Header extends Component {
                     <NavLink to={`/services`}>Services</NavLink>
                   </li>
                   <li>
-                    <NavLink to={`/`}>Industries</NavLink>
+                    <NavLink to={`/industries`}>Industries</NavLink>
                   </li>
                   <li>
-                    <NavLink to={`/`}>Solutions</NavLink>
+                    <NavLink to={`/solutions`}>Solutions</NavLink>
                   </li>
                   <li>
-                    <NavLink to={`/`}>Technologies</NavLink>
+                    <NavLink to={`/technologies`}>Technologies</NavLink>
                   </li>
                   <li>
-                    <NavLink to={`/`}>Success Stories</NavLink>
+                    <NavLink to={`/success-stories`}>Success Stories</NavLink>
                   </li>
                   <li>
-                    <NavLink to={`/`}>insights</NavLink>
+                    <NavLink to={`/insights`}>insights</NavLink>
                   </li>
                   <li>
-                    <NavLink to={`/`}>career</NavLink>
+                    <NavLink to={`/jobs`}>career</NavLink>
                   </li>
                   <li>
-                    <NavLink to={`/`}>contact us</NavLink>
+                    <NavLink to={`/contact-us`}>contact us</NavLink>
                   </li>
                 </ul>
                 <ul className="column is-1 is-search-con">
