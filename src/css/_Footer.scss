@@ -57,3 +57,67 @@
 .is-service {
   cursor: pointer;
 }
+.socials {
+  margin-bottom: 20px;
+  display: block;
+  margin-top: -15px;
+  li {
+    display: inline-block;
+    margin: 0 6px;
+    &:first-child {
+      margin-left: 0px;
+    }
+    &:last-child {
+      margin-right: 0px;
+    }
+    a {
+      display: block;
+      width: 25px;
+      height: 25px;
+      background: url("../images/social_icons.png") no-repeat;
+      font-size: 0;
+      margin: 0;
+      transition: none;
+    }
+    &.ln {
+      a {
+        background-position: 0 1px;
+        &:hover {
+          background-position: 0 -36px;
+        }
+      }
+    }
+    &.tw {
+      a {
+        background-position: -39px 1px;
+        &:hover {
+          background-position: -39px -36px;
+        }
+      }
+    }
+    &.fb {
+      a {
+        background-position: -75px 1px;
+        &:hover {
+          background-position: -75px -36px;
+        }
+      }
+    }
+    &.yt {
+      a {
+        background-position: -149px 1px;
+        &:hover {
+          background-position: -149px -36px;
+        }
+      }
+    }
+    &.gd {
+      a {
+        background-position: -110px 1px;
+        &:hover {
+          background-position: -110px -36px;
+        }
+      }
+    }
+  }
+}

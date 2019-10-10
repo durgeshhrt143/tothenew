@@ -7,8 +7,7 @@ class Footer extends Component {
     toggle: false
   };
   toggleHandler = () => {
-    const toggle = this.state.toggle === false ? !this.state.toggle : false;
-    this.setState({ toggle });
+    this.setState({ toggle: !this.state.toggle });
   };
   render() {
     return (
@@ -79,7 +78,7 @@ class Footer extends Component {
                   </li>
                 </ul>
               </div>
-              <div className="column is-4">
+              <div className="column is-3">
                 <h3> Contact Us</h3>
 
                 <ul>
@@ -97,8 +96,25 @@ class Footer extends Component {
                   </li>
                 </ul>
               </div>
-              <div className="column is-2">
+              <div className="column is-3">
                 <h3>Connect With Us</h3>
+                <ul className="socials">
+                  <li className="ln">
+                    <Link to={`/`}>ln</Link>
+                  </li>
+                  <li className="tw">
+                    <Link to={`/`}>tw</Link>
+                  </li>
+                  <li className="fb">
+                    <Link to={`/`}>fb</Link>
+                  </li>
+                  <li className="yt">
+                    <Link to={`/`}>yt</Link>
+                  </li>
+                  <li className="gd">
+                    <Link to={`/`}>gd</Link>
+                  </li>
+                </ul>
                 <img src={flogo} alt="flogo" />
                 <p>©2019 TO THE NEW</p>
               </div>

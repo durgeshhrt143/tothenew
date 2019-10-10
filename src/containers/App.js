@@ -19,12 +19,16 @@ import Events from "./../component/events-page/Index";
 import Csr from "./../component/csr-page/Index";
 import PrivacyPolicy from "./../component/privacy-policy-page/Index";
 import Blog from "./../component/blog-page/Index";
+import NewersWorld from "./../component/newers-world-page/Index";
+import JobsCampas from "./../component/job-campus-page/Index";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "../css/App.scss";
-
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
+        <ToastContainer />
         <Route path={`/`} exact component={Home} />
         <Route path={`/services`} component={Services} />
         <Route path={`/solutions`} component={Solutions} />
@@ -44,6 +48,8 @@ class App extends Component {
         <Route path={`/our-social-impact`} component={Csr} />
         <Route path={`/privacy-policy`} component={PrivacyPolicy} />
         <Route path={`/blog`} component={Blog} />
+        <Route path={`/job-newers-world`} component={NewersWorld} />
+        <Route path={`/job-campus`} component={JobsCampas} />
       </BrowserRouter>
     );
   }

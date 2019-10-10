@@ -237,3 +237,14 @@ body {
     background: $pinkColor;
   }
 }
+.carousel {
+  .control-dots {
+    .dot {
+      opacity: 1;
+      margin: 0 5px;
+      &.selected {
+        background: $pinkColor;
+      }
+    }
+  }
+}

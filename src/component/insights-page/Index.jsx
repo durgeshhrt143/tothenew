@@ -1,24 +1,29 @@
-import React, { Fragment } from "react";
+import React, { Fragment, Component } from "react";
 import Header from "./../Layout/Header";
 import Footer from "./../Layout/Footer";
 import HeroBanner from "./../common/HeroBanner";
-import IndustryCon from "./../industries-page/partials/IndustryCon";
+import InsightsCon from "./../insights-page/partials/InsightsCon";
 import SubscribeToOurInsights from "../Layout/SubscribeToOurInsights";
-const Insights = props => {
-  return (
-    <Fragment>
-      <Header />
-      <HeroBanner
-        img={`http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2016-07/Insights_0.jpg?itok=Xj1mh4l9`}
-        title={`Insights`}
-        page={"Insights"}
-        content={`Best of industry knowledge for you!`}
-      />
-      <IndustryCon />
-      <SubscribeToOurInsights />
-      <Footer />
-    </Fragment>
-  );
-};
-
+import { getInsights } from "../../services/InsightsService";
+class Insights extends Component {
+  state = {};
+  async componentDidMount() {
+    const { data } = await getInsights();
+    this.setState({ insights: data });
+  }
+  render() {
+    if (typeof this.state.insights === `undefined`) return null;
+    console.log(this.state.insights);
+    const { hero_banner, insights_con } = this.state.insights;
+    return (
+      <Fragment>
+        <Header />
+        <HeroBanner data={hero_banner} />
+        <InsightsCon data={insights_con} />
+        <SubscribeToOurInsights />
+        <Footer />
+      </Fragment>
+    );
+  }
+}
 export default Insights;

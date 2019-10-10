@@ -1,26 +1,36 @@
-import React, { Fragment } from "react";
+import React, { Fragment, Component } from "react";
 import Header from "./../Layout/Header";
 import Footer from "./../Layout/Footer";
 import HeroBanner from "./../common/HeroBanner";
 import ServicesCon from "./partials/ServicesCon";
 import LookExpertServices from "./partials/LookingExpertServices";
 import SubscribeToOurInsights from "../Layout/SubscribeToOurInsights";
-const Services = props => {
-  return (
-    <Fragment>
-      <Header />
-      <HeroBanner
-        img={`http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2016-07/Services_0.jpg?itok=Xgdm-7Zl`}
-        title={`Services`}
-        page={`Service`}
-        content={`Agility combined with design-­led engineering, cloud and analytics driven marketing results in great products, faster`}
-      />
-      <ServicesCon />
-      <LookExpertServices />
-      <SubscribeToOurInsights />
-      <Footer />
-    </Fragment>
-  );
-};
+import { getServices } from "./../../services/ServicesService";
+class Services extends Component {
+  state = {};
+  async componentDidMount() {
+    const { data } = await getServices();
+    this.setState({ services: data });
+  }
+  render() {
+    if (typeof this.state.services === `undefined`) return null;
+    console.log(this.state.services);
+    const {
+      hero_banner,
+      services_con,
+      look_expert_services
+    } = this.state.services;
+    return (
+      <Fragment>
+        <Header />
+        <HeroBanner data={hero_banner} />
+        <ServicesCon data={services_con} />
+        <LookExpertServices data={look_expert_services} />
+        <SubscribeToOurInsights />
+        <Footer />
+      </Fragment>
+    );
+  }
+}
 
 export default Services;

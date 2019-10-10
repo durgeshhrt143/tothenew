@@ -2,79 +2,50 @@ import React from "react";
 import { Link } from "react-router-dom";
 import img from "../../../images/grils.png";
 const TechnologyCon = props => {
+  const {
+    blo,
+    dat,
+    web,
+    tes,
+    dev,
+    mo,
+    fe,
+    be,
+    main_content,
+    main_title
+  } = props.data;
   return (
     <section className="technology-con">
       <div className="container">
         <div className="columns is-row has-text-centered">
-          <p className="column is-12 tech-main-con">
-            From building a marketplace to serving millions of users to handling
-            a live stream of 50K concurrent users, we solve complex problems
-            using cutting edge technologies.
-          </p>
-          <h1 className="column tech-main-title">Our Technology Stack</h1>
+          <p className="column is-12 tech-main-con">{main_content}</p>
+          <h1 className="column tech-main-title">{main_title}</h1>
         </div>
       </div>
       <div className="container-isfull">
         <div className="container">
           <ul className="columns is-row">
             <li className="column is-6">
-              <h3 className="tech-title">Backend Engineering</h3>
-              <p className="tech-con">
-                We use Java and JavaScript based frameworks for server-side
-                development. We use relational as well as NoSQL databases for
-                faster processing of complex set of data.
-              </p>
+              <h3 className="tech-title">{be.title}</h3>
+              <p className="tech-con">{be.content}</p>
               <p className="tech-offer">
-                <span>Our Offerings</span>
+                <span>{be.sub_title}</span>
               </p>
               <p className="tech-btn-list">
-                <Link to="/" className="btn pinkt-btn">
-                  Grails
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Java
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Node.js
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  MEAN
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Python
-                </Link>
+                {be.items.map((c, i) => (
+                  <Link to="/" className="btn pinkt-btn" key={i + c}>
+                    {c.content}
+                  </Link>
+                ))}
               </p>
             </li>
             <li className="column is-6">
               <ul className="columns is-row">
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
+                {be.img_items.map((c, i) => (
+                  <li className="column is-3" key={i + c}>
+                    <img src={c.img} alt={c.alt} />
+                  </li>
+                ))}
               </ul>
             </li>
           </ul>
@@ -85,62 +56,25 @@ const TechnologyCon = props => {
           <ul className="columns is-row">
             <li className="column is-6">
               <ul className="columns is-row">
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
+                {fe.img_items.map((c, i) => (
+                  <li className="column is-3" key={i + c}>
+                    <img src={c.img} alt={c.alt} />
+                  </li>
+                ))}
               </ul>
             </li>
             <li className="column is-6">
-              <h3 className="tech-title">Backend Engineering</h3>
-              <p className="tech-con">
-                We use Java and JavaScript based frameworks for server-side
-                development. We use relational as well as NoSQL databases for
-                faster processing of complex set of data.
-              </p>
+              <h3 className="tech-title">{fe.title}</h3>
+              <p className="tech-con">{fe.content}</p>
               <p className="tech-offer">
-                <span>Our Offerings</span>
+                <span>{fe.sub_title}</span>
               </p>
               <p className="tech-btn-list">
-                <Link to="/" className="btn pinkt-btn">
-                  Grails
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Java
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Node.js
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  MEAN
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Python
-                </Link>
+                {fe.items.map((c, i) => (
+                  <Link to="/" className="btn pinkt-btn" key={i + c}>
+                    {c.content}
+                  </Link>
+                ))}
               </p>
             </li>
           </ul>
@@ -151,63 +85,26 @@ const TechnologyCon = props => {
         <div className="container">
           <ul className="columns is-row">
             <li className="column is-6">
-              <h3 className="tech-title">Backend Engineering</h3>
-              <p className="tech-con">
-                We use Java and JavaScript based frameworks for server-side
-                development. We use relational as well as NoSQL databases for
-                faster processing of complex set of data.
-              </p>
+              <h3 className="tech-title">{mo.title}</h3>
+              <p className="tech-con">{mo.content}</p>
               <p className="tech-offer">
-                <span>Our Offerings</span>
+                <span>{mo.sub_title}</span>
               </p>
               <p className="tech-btn-list">
-                <Link to="/" className="btn pinkt-btn">
-                  Grails
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Java
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Node.js
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  MEAN
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Python
-                </Link>
+                {mo.items.map((c, i) => (
+                  <Link to="/" className="btn pinkt-btn" key={i + c}>
+                    c.content
+                  </Link>
+                ))}
               </p>
             </li>
             <li className="column is-6">
               <ul className="columns is-row">
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
+                {mo.img_items.map((c, i) => (
+                  <li className="column is-3" key={i + c}>
+                    <img src={c.img} alt={c.alt} />
+                  </li>
+                ))}
               </ul>
             </li>
           </ul>
@@ -218,62 +115,25 @@ const TechnologyCon = props => {
           <ul className="columns is-row">
             <li className="column is-6">
               <ul className="columns is-row">
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
+                {dev.img_items.map((c, i) => (
+                  <li className="column is-3" key={i + c}>
+                    <img src={c.img} alt={c.alt} />
+                  </li>
+                ))}
               </ul>
             </li>
             <li className="column is-6">
-              <h3 className="tech-title">Backend Engineering</h3>
-              <p className="tech-con">
-                We use Java and JavaScript based frameworks for server-side
-                development. We use relational as well as NoSQL databases for
-                faster processing of complex set of data.
-              </p>
+              <h3 className="tech-title">{dev.title}</h3>
+              <p className="tech-con">{dev.content}</p>
               <p className="tech-offer">
-                <span>Our Offerings</span>
+                <span>{dev.sub_title}</span>
               </p>
               <p className="tech-btn-list">
-                <Link to="/" className="btn pinkt-btn">
-                  Grails
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Java
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Node.js
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  MEAN
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Python
-                </Link>
+                {dev.items.map((c, i) => (
+                  <Link to="/" className="btn pinkt-btn" key={i + c}>
+                    {c.content}
+                  </Link>
+                ))}
               </p>
             </li>
           </ul>
@@ -284,63 +144,26 @@ const TechnologyCon = props => {
         <div className="container">
           <ul className="columns is-row">
             <li className="column is-6">
-              <h3 className="tech-title">Backend Engineering</h3>
-              <p className="tech-con">
-                We use Java and JavaScript based frameworks for server-side
-                development. We use relational as well as NoSQL databases for
-                faster processing of complex set of data.
-              </p>
+              <h3 className="tech-title">{tes.title}</h3>
+              <p className="tech-con">{tes.content}</p>
               <p className="tech-offer">
-                <span>Our Offerings</span>
+                <span>{tes.sub_title}</span>
               </p>
               <p className="tech-btn-list">
-                <Link to="/" className="btn pinkt-btn">
-                  Grails
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Java
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Node.js
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  MEAN
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Python
-                </Link>
+                {tes.items.map((c, i) => (
+                  <Link to="/" className="btn pinkt-btn" key={i + c}>
+                    {c.content}
+                  </Link>
+                ))}
               </p>
             </li>
             <li className="column is-6">
               <ul className="columns is-row">
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
+                {tes.img_items.map((c, i) => (
+                  <li className="column is-3" key={i + c}>
+                    <img src={c.img} alt={c.alt} />
+                  </li>
+                ))}
               </ul>
             </li>
           </ul>
@@ -351,62 +174,25 @@ const TechnologyCon = props => {
           <ul className="columns is-row">
             <li className="column is-6">
               <ul className="columns is-row">
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
+                {web.img_items.map((c, i) => (
+                  <li className="column is-3" key={i + c}>
+                    <img src={c.img} alt={c.alt} />
+                  </li>
+                ))}
               </ul>
             </li>
             <li className="column is-6">
-              <h3 className="tech-title">Backend Engineering</h3>
-              <p className="tech-con">
-                We use Java and JavaScript based frameworks for server-side
-                development. We use relational as well as NoSQL databases for
-                faster processing of complex set of data.
-              </p>
+              <h3 className="tech-title">{web.title}</h3>
+              <p className="tech-con">{web.content}</p>
               <p className="tech-offer">
-                <span>Our Offerings</span>
+                <span>{web.sub_title}</span>
               </p>
               <p className="tech-btn-list">
-                <Link to="/" className="btn pinkt-btn">
-                  Grails
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Java
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Node.js
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  MEAN
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Python
-                </Link>
+                {web.items.map((c, i) => (
+                  <Link to="/" className="btn pinkt-btn" key={i + c}>
+                    {c.content}
+                  </Link>
+                ))}
               </p>
             </li>
           </ul>
@@ -417,63 +203,26 @@ const TechnologyCon = props => {
         <div className="container">
           <ul className="columns is-row">
             <li className="column is-6">
-              <h3 className="tech-title">Backend Engineering</h3>
-              <p className="tech-con">
-                We use Java and JavaScript based frameworks for server-side
-                development. We use relational as well as NoSQL databases for
-                faster processing of complex set of data.
-              </p>
+              <h3 className="tech-title">{dat.title}</h3>
+              <p className="tech-con">{dat.content}</p>
               <p className="tech-offer">
-                <span>Our Offerings</span>
+                <span>{dat.sub_title}</span>
               </p>
               <p className="tech-btn-list">
-                <Link to="/" className="btn pinkt-btn">
-                  Grails
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Java
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Node.js
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  MEAN
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Python
-                </Link>
+                {dat.items.map((c, i) => (
+                  <Link to="/" className="btn pinkt-btn" key={i + c}>
+                    {c.content}
+                  </Link>
+                ))}
               </p>
             </li>
             <li className="column is-6">
               <ul className="columns is-row">
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
+                {dat.img_items.map((c, i) => (
+                  <li className="column is-3" key={i + c}>
+                    <img src={c.img} alt={c.alt} />
+                  </li>
+                ))}
               </ul>
             </li>
           </ul>
@@ -484,62 +233,25 @@ const TechnologyCon = props => {
           <ul className="columns is-row">
             <li className="column is-6">
               <ul className="columns is-row">
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
-                <li className="column is-3">
-                  <img src={img} alt="" />
-                </li>
+                {blo.img_items.map((c, i) => (
+                  <li className="column is-3" key={i + c}>
+                    <img src={c.img} alt={c.alt} />
+                  </li>
+                ))}
               </ul>
             </li>
             <li className="column is-6">
-              <h3 className="tech-title">Backend Engineering</h3>
-              <p className="tech-con">
-                We use Java and JavaScript based frameworks for server-side
-                development. We use relational as well as NoSQL databases for
-                faster processing of complex set of data.
-              </p>
+              <h3 className="tech-title">{blo.title}</h3>
+              <p className="tech-con">{blo.content}</p>
               <p className="tech-offer">
-                <span>Our Offerings</span>
+                <span>{blo.sub_title}</span>
               </p>
               <p className="tech-btn-list">
-                <Link to="/" className="btn pinkt-btn">
-                  Grails
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Java
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Node.js
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  MEAN
-                </Link>
-
-                <Link to="/" className="btn pinkt-btn">
-                  Python
-                </Link>
+                {blo.items.map((c, i) => (
+                  <Link to="/" className="btn pinkt-btn" key={i + c}>
+                    {c.content}
+                  </Link>
+                ))}
               </p>
             </li>
           </ul>

@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const HeroBanner = ({ img, title, content, page }) => {
+const HeroBanner = props => {
+  const { img, title, content, page, alt } = props.data;
   return (
     <section className="hero-banner">
       <div className="overflow-bg">
-        <img src={img} alt={img} />
+        <img src={img} alt={alt} />
       </div>
       <div className="text-con">
         <div className="container">

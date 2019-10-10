@@ -1,0 +1,2233 @@
+{
+  "privacy-policy": {
+    "Hero_banner": {
+      "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2016-07/Privacy_0.jpg?itok=U0jGLCKb",
+      "alt": "privacy",
+      "title": "Privacy",
+      "page": "Privacy",
+      "content": "Words to live by!"
+    },
+    "your_information": {
+      "main_title": "How we share your information",
+      "items": [
+        {
+          "title": "PERSONALLY IDENTIFIABLE INFORMATION",
+          "content": "TO THE NEW will not rent or sell your personally identifiable information to others. We may store personal information in locations outside the direct control (for instance, on servers or databases co-located with hosting providers). As we develop our business, we may buy or sell assets or business offerings. Customer, email, and visitor information is generally one of the transferred business assets in these types of transactions. We may also transfer or assign such information in the course of corporate divestitures, mergers, or dissolution."
+        },
+        {
+          "title": "NON-PERSONALLY IDENTIFIABLE INFORMATION",
+          "content": "We may share non-personally identifiable information (such as anonymous usage data, referring/exit pages and URLs, platform types, number of clicks, etc.) with interested third parties to help them understand the usage patterns for certain TO THE NEW's services and those of our partners. Non-personally identifiable information may be stored indefinitely."
+        },
+        {
+          "title": "HOW WE PROTECT YOUR INFORMATION",
+          "content": "TO THE NEW is concerned with protecting your privacy and data, but we cannot ensure or warrant the security of any information you transmit to TO THE NEW or guarantee that your information on the Service may not be accessed, disclosed, altered, or destroyed by breach of any of our industry standard physical, technical, or managerial safeguards."
+        },
+        {
+          "title": "COMPROMISE OF PERSONAL INFORMATION",
+          "content": "In the event that personal information is compromised as a result of a breach of security, TO THE NEW will promptly notify those persons whose personal information has been compromised, in accordance with the notification procedures set forth in this Privacy Policy, or as otherwise required by applicable law."
+        }
+      ]
+    },
+    "privacy_con": {
+      "main_title": "Information we collect",
+      "main_content": "TO THE NEW Singapore ('TO THE NEW','we', or 'us') knows that you care how information about you is used and shared. This Privacy Policy explains what information of yours will be collected by TO THE NEW when you access the TO THE NEW website. We will not use or share your information with anyone except as described in this Privacy Policy. This Privacy Policy does not apply to information we collect by other means (including offline) or from other sources.",
+      "items": [
+        {
+          "title": "OUR SERVICE",
+          "content": "We may collect personally identifiable information about you through our website when you register for an account, such as your email. We also collect data through our partners (customers) who use our Service (including by embedding our code on their websites) to analyze usage of their websites. When you visit such websites, your browser may send us certain information about you as described below. We do not send any promotional emails, however we may send you service related emails related to your account."
+        },
+        {
+          "title": "COOKIES INFORMATION",
+          "content": "We may send one or more cookies - a small text file containing a string of alphanumeric characters - to your computer that uniquely identifies your browser and lets learn about your behavior and usage patterns when you are on our site. A cookie may also convey anonymous information about how you browse a partner website to us. A cookie does not collect personal information about you. A persistent cookie remains on your hard drive after you close your browser. Persistent cookies may be used by your browser on subsequent visits to the site. Persistent cookies can be removed by following your web browser's directions. A session cookie is temporary and disappears after you close your browser. You can reset your web browser to refuse all cookies or to indicate when a cookie is being sent."
+        },
+        {
+          "title": "LOG FILE INFORMATION",
+          "content": "Log file information is automatically reported by your browser each time you access a web page on our site. When you access the Service, our servers automatically record certain information that your web browser sends whenever you visit any website. These server logs may include information such as your web request, Internet Protocol ('IP') address, browser type, referring / exit pages and URLs, number of clicks, domain names, landing pages, pages viewed, and other such information."
+        },
+        {
+          "title": "CLEAR GIFS INFORMATION",
+          "content": "When you access the Service or are on our web site, we may employ clear gifs (also known as web beacons) which are used to track the online usage patterns of our users anonymously. No personally identifiable information from your TO THE NEW account is collected using these clear gifs. The information is used to enable more accurate reporting, improve the effectiveness of our Service, and make TO THE NEW better for our users and partners. These technologies mentioned above do not collect personal information about you and only collect data in the aggregate."
+        },
+        {
+          "title": "HOW WE USE YOUR INFORMATION",
+          "content": "We use the information that we collect to operate and maintain our Service. We use cookies, clear gifs, and log file information to: (a) monitor the effectiveness of our Service (b) monitor aggregate metrics such as total number of visitors, traffic, and demographic patterns; (c) diagnose or fix technology problems."
+        }
+      ]
+    }
+  },
+  "home": {
+    "slider_arr": [
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image/public/2019-04/technology-solutions_banner5.jpg?itok=hIfvrAFv",
+        "alt": "TO THE NEW GPTW",
+        "main_title": "We build and manage disruptive web products and Internet-based businesses",
+        "sub_title": "Product Engineering partner for Fortune 500 companies as well as Silicon Valley startups to build cloud-native products and applications",
+        "know_more": "Know More"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image/public/2018-08/TTN_GPTW2017-18_WEBSITE_BANNER_B%20%281%29.jpg?itok=BC-2v9kv",
+        "alt": "TO THE NEW GPTW",
+        "main_title": "Proud to be named among India’s Best Companies To Work For",
+        "sub_title": "TO THE NEW is proud to be named in the prestigious “India’s Best Companies to Work For - 2019” list by Great Place to Work Institute® India",
+        "know_more": "Know More"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image/public/2018-12/TTN_ZZ4_Website_Banner.jpg?itok=xiIj-fpo",
+        "main_title": "TO THE NEW Featured in Zinnov Zones 2018 ER&D Report",
+        "sub_title": "TO THE NEW has been positioned in the execution zone of Software Product Engineering Service Provider Ratings by Zinnov Zones 2018",
+        "know_more": "Know More"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image/public/2019-04/Product%20Eng_1_banner4.jpg?itok=czEkVpLc",
+        "alt": "TO THE NEW GPTW",
+        "main_title": "We drive digital transformation for businesses",
+        "sub_title": "We transform businesses leveraging experience design, cutting-edge engineering and cloud to acquire new customers and add new revenue streams",
+        "know_more": "Know More"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image/public/2019-04/Product%20Eng_1_banner4.jpg?itok=czEkVpLc",
+        "alt": "TO THE NEW GPTW",
+        "main_title": "We drive digital transformation for businesses",
+        "sub_title": "We transform businesses leveraging experience design, cutting-edge engineering and cloud to acquire new customers and add new revenue streams",
+        "know_more": "Know More"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image/public/2018-08/TTN_GPTW2017-18_WEBSITE_BANNER_B%20%281%29.jpg?itok=BC-2v9kv",
+        "alt": "TO THE NEW GPTW",
+        "main_title": "Proud to be named among India’s Best Companies To Work For",
+        "sub_title": "TO THE NEW is proud to be named in the prestigious “India’s Best Companies to Work For - 2019” list by Great Place to Work Institute® India",
+        "know_more": "Know More"
+      }
+    ],
+    "slider_below": {
+      "main_content": "We are a digital technology company providing end-to-end product development services. We leverage the power of experience design, cutting-edge engineering, and cloud to build disruptive web and mobile apps enabling digital transformation for businesss.",
+      "main_title": "We drive product engineering and digital transformation with Agile methodologies as the backbone.",
+      "items": [
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2016-07/Digital%20Transformation.png?itok=QxjSEoh2",
+          "alt": "Digital Transformation",
+          "title": "Digital Transformation",
+          "content": "Help companies traverse the complex Digital Transformation journey leveraging cutting-edge technologies"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2016-07/Product%20Eng.png?itok=smKTKcVr",
+          "alt": "Sofware Product Engineering",
+          "title": "Product Engineering",
+          "content": "Build disruptive products with a design-led engineering approach"
+        }
+      ]
+    },
+    "technologies": {
+      "main_title": "Technologies",
+      "content": "We solve complex problems using cutting edge technologies",
+      "sub_content": "We take a deep dive into various digital advances and leverage these technologies to build winning products. We work on breakthrough technologies and deliver mission critical mobile and web applications. Some of the technologies that we have mastered include Grails, Angular.js, Node.js, and React to name a few."
+    },
+    "success_stories": {
+      "main_title": "Success Stories",
+      "content": "Trusted by leading brands including Fortune 500 enterprises and Silicon Valley startups",
+      "img1": {
+        "img1": "http://static1.tothenew.com/sites/default/files/styles/vertical_image/public/2016-07/Alibaba%20Cloud%20_%20Home%20Page.jpg?itok=OvdlKcX2",
+        "alt": "Alibaba Cloud Product Development case study"
+      },
+      "img2": {
+        "img2": "http://static1.tothenew.com/sites/default/files/styles/normal/public/2016-10/westcon_450_261.jpg?itok=th668_32",
+        "alt": "westcon web application development services case study"
+      },
+      "img3": {
+        "img3": "http://static1.tothenew.com/sites/default/files/styles/normal/public/2016-07/warner.jpg?itok=gTZCl0dz",
+        "alt": "Time Warner Cable application development case study"
+      },
+      "img4": {
+        "img4": "http://static1.tothenew.com/sites/default/files/styles/horizontal_image/public/2016-07/matse.jpg?itok=IYRVimVj",
+        "alt": "Mat Se software application Development case study"
+      }
+    },
+    "insights": {
+      "main_title": "Insights",
+      "content": "Best of industry knowledge for you!",
+      "items": [
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2017-09/300_232.png",
+          "alt": "WP image",
+          "title": "Whitepaper",
+          "content": "'[NASSCOM Whitepaper Series- I] How Is Digital Transformation Reshaping Businesses To Meet The Digital Age? The Customer Experience Context!'"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2017-11/Banner%201_0.png",
+          "alt": "The Kaizen Approach to Software Development",
+          "title": "Whitepaper",
+          "content": "The Kaizen Approach to Software Development"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2017-09/2_20%20Tips%20and%20Tricks%20Companies%20Must%20Know%20While%20Working%20on%20AWS_DrupalIndexPageWebsite_300x232px_2.jpg",
+          "alt": "20 Tips and Tricks Companies Must Know While Working on AWS",
+          "title": "Whitepaper",
+          "content": "20 Tips and Tricks Companies Must Know While Working on AWS"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2017-09/DIGITAL%20Transformation.png",
+          "alt": "Decoding Digital Transformation",
+          "title": "Whitepaper",
+          "content": "Decoding Digital Transformation For A Large Enterprise in India"
+        }
+      ]
+    }
+  },
+  "our-clients": {
+    "main_title": "Our Clients",
+    "content": "Names who trust us",
+    "items": [
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/2016-07/time-warner-cable.jpg",
+        "alt": "time warner cable web development",
+        "title": "Time Warner Cable"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/2016-07/p%26g.jpg",
+        "alt": "P and G application development",
+        "title": "P & G"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/2016-07/sony_0.jpg",
+        "alt": "sony software development",
+        "title": "Sony"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/2016-07/pizza-hut.jpg",
+        "alt": "pizza hut product development",
+        "title": "Pizza Hut"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/2017-12/Tata%20sky%20%282%29.png",
+        "alt": "Tata Sky",
+        "title": "Tata Sky"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/2016-07/make-in-india.jpg",
+        "alt": "make in India application development",
+        "title": "Make In India"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/2016-07/air-asia.jpg",
+        "alt": "air asia airline application development",
+        "title": "Air Asia"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/2016-07/maruti.jpg",
+        "alt": "maruti suzuki web product development",
+        "title": "Maruti Suzuki"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/2016-07/indusInd.jpg",
+        "alt": "indusInd bank software product development",
+        "title": "IndusInd Bank"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/2016-07/car_0.jpg",
+        "alt": "car dekho digital transformation",
+        "title": "Car Dekho"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/2016-07/samsung.jpg",
+        "alt": "samsung software application development",
+        "title": "Samsung"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/2016-07/lg.jpg",
+        "alt": "lg mobile application development",
+        "title": "LG"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/2016-07/axis-bank.jpg",
+        "alt": "axis bank outsourced application development",
+        "title": "Axis Bank"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/2016-07/zee-tv.jpg",
+        "alt": "zee tv scalable application development",
+        "title": "Zee Tv"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/2016-07/castrol.jpg",
+        "alt": "castrol digital transformation",
+        "title": "Castrol"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/2016-07/city.jpg",
+        "alt": "citi bank application development",
+        "title": "Citi Bank"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/2016-07/google.jpg",
+        "alt": "google android and angularjs development",
+        "title": "Google"
+      },
+      {
+        "img": "http://static1.tothenew.com/sites/default/files/2016-07/mat-se.jpg",
+        "alt": "mat se web application development",
+        "title": "mat-se"
+      }
+    ]
+  },
+  "services": {
+    "hero_banner": {
+      "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2016-07/Services_0.jpg?itok=Xgdm-7Zl",
+      "alt": "services",
+      "title": "Services",
+      "page": "Service",
+      "content": "Agility combined with design-­led engineering, cloud and analytics driven marketing results in great products, faster"
+    },
+    "services_con": {
+      "main_content": "We help Internet-based businesses and product companies design and develop cloud-native web and mobile solutions. We drive digital transformation for businesses by helping them provide a rich, seamless experience to their customers across digital channels resulting in higher engagement, efficiency, and profitability.",
+      "items": [
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2016-07/Digital%20Transformation.png?itok=QxjSEoh2",
+          "alt": "Digital Transformation",
+          "title": "Digital Transformation",
+          "content": "Help companies traverse the complex Digital Transformation journey leveraging cutting-edge technologies"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2016-07/Product%20Eng.png?itok=smKTKcVr",
+          "alt": "Sofware Product Engineering",
+          "title": "Product Engineering",
+          "content": "Build disruptive products with a design-led engineering approach"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2016-07/Experience%20Design_1.png?itok=qilSLfvU",
+          "alt": "Experience Design",
+          "title": "Experience Design",
+          "content": "Create delightful experiences that impact customer satisfaction, brand perception and conversion rates."
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2016-07/Mobility_0.png?itok=4zaufD0i",
+          "alt": "Mobility",
+          "title": "Mobility",
+          "content": "Intuitive and experiential mobility solutions that provide compelling user experience."
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2016-07/DevOps_1.png?itok=LKO0Nff7",
+          "alt": "DevOps-Consulting",
+          "title": "DevOps ",
+          "content": "Automate end to end delivery pipeline and scale up infrastructure across leading"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2016-07/WCM.png?itok=1x156Cns",
+          "alt": "WCM",
+          "title": "Web Content Management",
+          "content": "Personalized, contextual and consistent digital experience across channels."
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-02/video-ott-fulfillment-icon.png?itok=duRoJvV-",
+          "alt": "Video OTT Fulfillment",
+          "title": "Video Managed Services",
+          "content": "Help media industries optimize and deliver video content"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2016-07/Digital%20Marketing_0.png?itok=xYc6zI1W",
+          "alt": "Digital Marketing",
+          "title": "Digital Marketing",
+          "content": " Creative and analytics led digital marketing solutions for businesses across the globe."
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2017-04/icon6_0.png?itok=qQZBOIWK",
+          "alt": "managed-services",
+          "title": "Cloud Managed Services",
+          "content": "24/7 complete infrastructure managed services for the highest levels of performance and uptime"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2018-09/data-engineering-icon.png?itok=EvG40Vwm",
+          "alt": "Data Engineering",
+          "title": "Data Engineering",
+          "content": "Produce visuals and stories that generate high business impact."
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2018-09/blockchain.png?itok=Ee2Loio4",
+          "alt": "Blockchain as a service",
+          "title": "Blockchain Development Services",
+          "content": "Help companies with ICO, wallet development, smart contracts and Blockchain based DApps"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-05/digital-analytics-icon.png?itok=riEd2aLv",
+          "alt": "Digital Analytics",
+          "title": "Digital Analytics",
+          "content": "We collect, measure, analyze, visualize and interpret digital data illustrating user behaviour on websites, mobile sites and mobile applications"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-08/QualityEngineering_Icon-02-svg.png?itok=3DrfJ8T0",
+          "alt": "Quality-Engineering",
+          "title": "Quality Engineering Services",
+          "content": "We aim to transform the traditional Quality Assurance to Quality Engineering by leveraging technology catering to CICD & Agile environment"
+        }
+      ]
+    },
+    "look_expert_services": {
+      "main_title": "Looking for our expert services?"
+    }
+  },
+  "industries": {
+    "hero_banner": {
+      "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2018-11/industries-we-serve_0.jpg?itok=b9d3d_2Y",
+      "alt": "Industry",
+      "page": "industries",
+      "title": "Industries We Serve",
+      "content": "Leveraging the power of disruptive digital technologies, we empower businesses across industries to transform digitally"
+    },
+    "industry_con": {
+      "main_title": "Industry Verticals We Serve",
+      "main_content": "We deliver bespoke industry specific solutions leveraging our extensive digital experience, design-led engineering approach and agile processes backed by our strong expertise in cutting edge technologies.",
+      "i_s_v": {
+        "title": "Independent Software Vendors",
+        "content": "Highly scalable and robust solutions using microservices based architectures for ISVs and Hi-Tech enterprises.",
+        "img": "http://static1.tothenew.com/sites/default/files/inline-images/ISV_0.jpg",
+        "alt": "Independent Software Vendors"
+      },
+      "m_e": {
+        "title": "Media & Entertainment",
+        "content": "Helping mainstream media companies leverage technology to meet the demands of new age digital consumer.",
+        "img": "http://static1.tothenew.com/sites/default/files/inline-images/M%26E_0.jpg",
+        "alt": "Media and Entertainment"
+      },
+      "f_s": {
+        "title": "Financial Services",
+        "content": "Enabling BFSI companies traverse the digital transformation journey in a highly competitive market, with ever-changing regulatory compliances",
+        "img": "http://static1.tothenew.com/sites/default/files/inline-images/Financial-%281%29_0.jpg",
+        "alt": "Mutual Funds Insurance and Lending"
+      },
+      "c_i": {
+        "title": "Consumer Internet",
+        "content": "Innovative consumer centric solutions ensuring seamless customer experience across channels.",
+        "img": "http://static1.tothenew.com/sites/default/files/inline-images/Consumer-Internet_0.jpg",
+        "alt": "Consumer-internet"
+      },
+      "travel": {
+        "title": "Travel",
+        "content": "Innovative applications for all major verticals of the travel industry, be it airlines, distributors, travel agencies, or hotel.",
+        "img": "http://static1.tothenew.com/sites/default/files/inline-images/Travel_0.jpg",
+        "alt": "Travel"
+      },
+      "e_commerce": {
+        "title": "E-Commerce",
+        "content": "We design, develop and implement bespoke ecommerce solutions that deliver exceptional customer experience, drive brand loyalty and business growth",
+        "img": "http://static1.tothenew.com/sites/default/files/inline-images/ecommerce-industries.jpg",
+        "alt": "ecommerce-industries"
+      }
+    }
+  },
+  "solutions": {
+    "hero_banner": {
+      "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2018-09/solutions-banner.png?itok:6V6mJvJx",
+      "alt": "Our Solutions",
+      "title": "Our Solutions",
+      "page": "Solutions",
+      "content": "Innovative solutions to address your hard pressing business challenges and requirements"
+    },
+    "solution_con": {
+      "main_title": "Our Solution Accelerators",
+      "main_content": "Leveraging our years of extensive experience on emerging digital technologies, we have built innovative technology solutions for industry incumbents solving their critical business challenges.",
+      "opd": {
+        "title": "OTT Platform Development",
+        "content": "We build custom OTT applications for Media & Entertainment companies which provide rich, intuitive and omni-channel experience to viewers across devices including web, mobile,smart TV, media streaming devices and gaming consoles.",
+        "img": "http://static1.tothenew.com/sites/default/files/inline-images/ott-platform-development.png",
+        "alt": "OTT-Platform-Development"
+      },
+      "mfr": {
+        "title": "MF Ready",
+        "content": "Our ready to use solution framework for Mutual Fund houses helps to simplify and speed up business processes and reduce their dependence on RTAs for data.",
+        "img": "http://static1.tothenew.com/sites/default/files/inline-images/mf-ready.png",
+        "alt": "mf-ready"
+      },
+      "opc": {
+        "title": "Online Product Chassis",
+        "content": "A digital framework to enable companies to launch new products and policies faster with an enhanced user experience that is personalized and contextual.",
+        "img": "http://static1.tothenew.com/sites/default/files/inline-images/online-product-chassis.png",
+        "alt": "online-product-chassis"
+      },
+      "myc": {
+        "title": "MyCloud",
+        "content": "An advanced AWS Cloud usage and cost optimization platform that provides spend analysis, cost analysis, usage trends and identifies security loopholes providing recommendations as per AWS best practices.",
+        "img": "http://static1.tothenew.com/sites/default/files/inline-images/MyCloud_1.png",
+        "alt": "mycloud"
+      },
+      "haw": {
+        "title": "HAWK©",
+        "content": "A unified application infrastructure monitoring platform that provides real-time insight into application infrastructure management, monitoring and log analytics.",
+        "img": "http://static1.tothenew.com/sites/default/files/inline-images/hawk.png",
+        "alt": "hawk"
+      }
+    },
+    "look_expert_service": {
+      "title": "Looking for customized technology solutions to cater your technology needs?"
+    }
+  },
+  "technologies": {
+    "hero_banner": {
+      "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2016-07/Technology_0.jpg?itok=ndptHTs",
+      "alt": "Technology",
+      "title": "Technologies",
+      "page": "Technologies",
+      "content": "Product development done right, with breakthrough technologies and Agile processes"
+    },
+    "technology_con": {
+      "main_title": "Our Technology Stack",
+      "main_content": "From building a marketplace to serving millions of users to handling a live stream of 50K concurrent users, we solve complex problems using cutting edge technologies.",
+      "be": {
+        "title": "Backend Engineering",
+        "content": "We use Java and JavaScript based frameworks for server-side development. We use relational as well as NoSQL databases for faster processing of complex set of data.",
+        "sub_title": "Our Offerings",
+        "items": [
+          { "content": "Grails" },
+          { "content": "Java " },
+          { "content": " Node.js" },
+          { "content": " MEAN " },
+          { "content": " Python" }
+        ],
+        "img_items": [
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/1.png?itok=836Z48nG",
+            "alt": "Grails"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/2.png?itok=FdtxC6Sf",
+            "alt": "Java"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/3.png?itok=egl_5U4g",
+            "alt": "Spring"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/5.png?itok=yJegDZJc",
+            "alt": "MongoDB"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/6.png?itok=ZXIWjD1A",
+            "alt": "MySQL"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2018-01/NodeJS.png?itok=kXU64D03",
+            "alt": "Nodejs"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2018-01/mean-stack.png?itok=wpsR0FkK",
+            "alt": "MEAN Stack"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2018-12/python-logo.png?itok=_IbN0HB5",
+            "alt": "Python Development"
+          }
+        ]
+      },
+      "fe": {
+        "title": "Frontend Engineering",
+        "content": "JavaScript in combination with HTML and CSS has revolutionized the way web and mobile applications are built and we are extremely adept at implementing the JS universe. ",
+        "sub_title": "Our Offerings",
+        "items": [
+          { "content": "AngularJS" },
+          { "content": "React Native" },
+          { "content": "React js" }
+        ],
+        "img_items": [
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/9.png?itok=sJL8l5VX",
+            "alt": "React"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/10.png?itok=ZZ7HvG04",
+            "alt": "HTML5"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/11.png?itok=DPAW4_pf",
+            "alt": "CSS3"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/12.png?itok=pMEibOTz",
+            "alt": "Polymer"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2018-01/angularjs.png?itok=d4JdwmSR",
+            "alt": "AngularJS"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2018-01/Bootstrap.png?itok=pf7s6UhF",
+            "alt": "Bootstrap"
+          }
+        ]
+      },
+      "mo": {
+        "title": "Mobility",
+        "content": "Experts in developing experiential applications using native as well as hybrid technologies for mobile, tablets and connected devices.",
+        "sub_title": "Our Offerings",
+        "items": [
+          { "content": "iOS" },
+          { "content": "Android" },
+          { "content": "Smart TV" },
+          { "content": "Mobile Automation" },
+          { "content": "Hybrid" }
+        ],
+        "img_items": [
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/13.png?itok=q-KUjw1N",
+            "alt": "iOS"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/14.png?itok=tjPVNMW5",
+            "alt": "Android"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/15.png?itok=_pwOtELI",
+            "alt": "Smart-TV"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/16.png?itok=LTti8S-O",
+            "alt": "Fire-TV"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-07/roku_0.png?itok=4hOxt9DZ",
+            "alt": "Roku"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-07/tizen_0.png?itok=F4i8t7JU",
+            "alt": "Tizen"
+          }
+        ]
+      },
+      "dev": {
+        "title": "DevOps",
+        "content": "DevOps led development improves time to market, increases efficiency and reduces redundancy in the system.",
+        "sub_title": "Our Offerings",
+        "items": [
+          { "content": "DevOps on AWS" },
+          { "content": "DevOps Tools" }
+        ],
+        "img_items": [
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/19.png?itok=JcLs2P2f",
+            "alt": "Docker"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/20.png?itok=GlelvH_j",
+            "alt": "AWS"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/21.png?itok=S4hTXjna",
+            "alt": "Jenkins"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/22.png?itok=jwiBJWPh",
+            "alt": "New-Relic"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/23.png?itok=WTF2CLDH",
+            "alt": "Puppet"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/25.png?itok=N4AGrk9o",
+            "alt": "Chef"
+          }
+        ]
+      },
+      "tes": {
+        "title": "Testing",
+        "content": "Zero-bug application is a distant dream but our automation and manual testing experts help you achieve it. ",
+        "sub_title": "Our Offerings",
+        "items": [
+          { "content": "Manual" },
+          { "content": "Automation" },
+          { "content": "Mobile" },
+          { "content": "Independent" }
+        ],
+        "img_items": [
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/26.png?itok=lVK0C9CZ",
+            "alt": "Protractor"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/27.png?itok=wvs101B5",
+            "alt": "Selenium"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/28.png?itok=yIsYVNK_",
+            "alt": "Appium"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/29.png?itok=gBnYtfWs",
+            "alt": "Seetest"
+          }
+        ]
+      },
+      "web": {
+        "title": "Web Content Management",
+        "content": "We deliver personalized and contextual experience to create superior digital experience.",
+        "sub_title": "Our Offerings",
+        "items": [{ "content": "Drupal" }, { "content": "AEM" }],
+        "img_items": [
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/30.png?itok=IhqHCAo8",
+            "alt": "Drupal"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2016-06/31.png?itok=I2zZ70Z1",
+            "alt": "Adobe-Experience-Manager"
+          }
+        ]
+      },
+      "dat": {
+        "title": "Data Engineering",
+        "content": "Data is the key to effective decision making. Uncover meaningful and actionable insights from a huge amount of data.",
+        "sub_title": "Our Offerings",
+        "items": [{ "content": "Data Engineering" }],
+        "img_items": [
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2018-01/Hadoop.png?itok=-D_EAAKj",
+            "alt": "Hadoop"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2018-01/Spark.png?itok=wGulm9g9",
+            "alt": "Spark"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2018-11/kafka.png?itok=gs4F_orq",
+            "alt": "kafka"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2018-11/power-bi-logo_0.jpg?itok=OUq0Ed13",
+            "alt": "powerbi"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2018-11/tableau_0.jpg?itok=iClIu_8o",
+            "alt": "tableau"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2018-11/highcharts_0.jpg?itok=3NODihWJ",
+            "alt": "highcharts"
+          }
+        ]
+      },
+      "blo": {
+        "title": "Blockchain",
+        "content": "We leverage a variety of tools, platforms, technologies and approaches to build secure and reliable Blockchain applications, Smart Contracts and Cryptocurrencies.",
+        "sub_title": "Our Offerings",
+        "items": [
+          { "content": "Blockchain Applications" },
+          { "content": "Smart Contracts" },
+          { "content": "ICO Development" }
+        ],
+        "img_items": [
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2018-04/ethereum_0.jpg?itok=GkYShFd2",
+            "alt": ""
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2018-04/tierion_0.jpg?itok=_OjZl6dS",
+            "alt": ""
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2018-04/hyperledger_0.jpg?itok=J0AkaVuk",
+            "alt": ""
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2018-04/solc_0.jpg?itok=9xsHYDsb",
+            "alt": ""
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2018-04/remix.jpg?itok=h-HxBbvh",
+            "alt": ""
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2018-04/mist.jpg?itok=dc_zT8XY",
+            "alt": ""
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2018-04/etherscan.jpg?itok=jfM9VctF",
+            "alt": ""
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/styles/technologies_tools_80/public/2018-04/truffle.jpg?itok=oAP-xi8R",
+            "alt": ""
+          }
+        ]
+      }
+    },
+    "look_expert_services": {
+      "title": "Looking for cutting-edge technology solutions?"
+    }
+  },
+  "success-stories": {
+    "hero_banner": {
+      "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2016-07/Success-Stories.jpg?itok=-cwgxevq",
+      "alt": "Success-Stories",
+      "title": "Success Stories",
+      "page": "Success stories",
+      "content": "Trusted by leading brands including Fortune 500 companies and Silicon Valley startups"
+    },
+    "success_stories_con": [
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2018-09/ATG%20Banner%20image_0.jpg",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2018-09/ATG%20logo.png",
+        "content": "Data Lake Implementation Using Open Source Tech Stack & AWS Services",
+        "tags": "AWS, Cloud, Travel and Tourism"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2018-10/Viacom18%20Banner%20image%20%281%29_0.jpg",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2018-10/Viacom18%20logo.png",
+        "content": "Optimization of Digital Video Content and Management of OTT Platforms for Viacom18",
+        "tags": "Video, Video Solutions, OTT, WebContentManagement"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2018-10/WatchWith%20Banner%20image_0.jpg",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2018-10/WatchWith%20logo.png",
+        "content": "Captured Time-Based Metadata for WatchWith",
+        "tags": "Video, OTT, Video Solutions"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2019-02/Case%20Study%20banner_0.jpg",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2019-02/resized%20times%20internet%20logo.jpg",
+        "content": "Distributed Indian Premier League Videos For Times Internet",
+        "tags": "Video, OTT, Video Solutions"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2018-06/Zee%20TV%20Banner%20image_0.jpg",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2018-06/Zee%20TV%20logo_0.png",
+        "content": "Effective optimization of digital video content and management of OTT platforms.",
+        "tags": "#Webcontentmanagement, #Videosolution"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2018-09/Delhivery%20Banner%20image_1.jpg",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2018-09/Delhivery%20logo.png",
+        "content": "Optimized Supply Chain Operations for Delhivery",
+        "tags": "Product Development, Analytics, Product Engineering"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2018-09/Clavis%20Banner%20image_1.jpg",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2018-09/Clavis%20logo_0.png",
+        "content": "An eCommerce Intelligence Solutions To Help Brands Gauge Performance of Products on Amazon…",
+        "tags": "Amazon Web Services, Analytics, Product Engineering"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2018-06/ESPN%20Banner%20image_0.jpg",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2018-06/ESPN%20logo_1.png",
+        "content": "Created content along with Live coverage on mobile in 3 Indian languages",
+        "tags": "#Webcontentmanagement, #Videosolution"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2016-07/Westcon_small.jpg",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2016-07/westcon.png",
+        "content": "A world-class marketplace by Westcon to enable resellers to sell Cloud services",
+        "tags": "#ProductEngineering, #Grails, #DevOps, #FrontendDevelopment"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2017-12/Banner%20image%20%281%29.jpg",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2017-12/logo.png",
+        "content": "Rebuilt the OTT platform alongwith backend ecosystem for supporting mobile apps",
+        "tags": "#ProductEngineering, #DevOps, #AWS"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2017-12/MLI_400x168px.png",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2017-12/MLI_Logo_220x143px.png",
+        "content": "Redesigned and Rebuilt corporate website by migrating it to AEM 6.2",
+        "tags": "#WCM, #DevOps, #ExperienceDesign"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2017-06/HDFC_400_168.png",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2017-06/HDFC_220_143.png",
+        "content": "Built intuitive investor and distributor portals along with mobile apps ",
+        "tags": "#ProductEngineering, #DigitalTransformation, #Mobility, #FrontendDevelopment"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2018-02/Alibaba_0.png",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2018-02/Alibabacloud_0.png",
+        "content": "Redesigned and rebuilt Alibaba Cloud platform leading to improved performance and usability",
+        "tags": "#UX"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2016-07/TWC.jpg",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2016-07/TWC.png",
+        "content": "Enriching customer’s journey through seamless AEM implementation ",
+        "tags": "#WebContentManagement, #AEM"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2016-07/Groupon_small.jpg",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2016-07/nearbuy.png",
+        "content": "Automated delivery pipeline with significant cost reduction ",
+        "tags": "#Cloud, #DevOps"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2016-07/FEN_small.jpg",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2016-07/family-education_0.jpg",
+        "content": "Web Content Management on Drupal 8 for a distinguished online parenting portal",
+        "tags": "#WebContentManagement, #Drupal"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2017-06/Invest%20India_400_168%20%281%29.png",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2017-06/Invest%20India_220_143%20%281%29.png",
+        "content": "Exhaustive digital roadmap and implementation",
+        "tags": "#DigitalTransformation"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2016-07/Adopt-A-Pet_small.jpg",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2016-07/Adopt-a-Pet.png",
+        "content": "AWS setup & DevOps for one of the largest non-profit pet adoption website",
+        "tags": "#Cloud, #DevOps"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2018-02/B2C.png",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2018-02/Alibabacloud_1.png",
+        "content": "Visually pleasing aesthetics and designs embracing Alibaba’s ambition of launching a Cloud…",
+        "tags": "#UX"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2018-02/LC%20%281%29.png",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2018-02/LC.png",
+        "content": "Compelling product designs enabling Liquidation Channel to marketing products through live…",
+        "tags": "#UX"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2017-11/Nykaa_400x168px.png",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2017-11/Nykaa_Logo_220x143px.png",
+        "content": "Effective AWS Infrastructure Management and Monitoring",
+        "tags": "#DevOps, #AWS"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2018-02/FEN.png",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2018-02/FENlearning.png",
+        "content": "Redesigned and re platformed four high traffic websites for Family Education Network leveraging…",
+        "tags": "#UX"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2018-02/TJC%20%281%29.png",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2018-02/TJC.png",
+        "content": "Enabled TJC to envision and launch live TV on Smart TV platforms",
+        "tags": "#UX"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2017-06/Jadoo%20TV_400_168.png",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2017-06/Jadoo%20TV_220_143.png",
+        "content": "Built intuitive Smart Tv apps for 7 platforms",
+        "tags": "#Mobility, #SmartTV"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2016-07/Alibaba%20Cloud_small.jpg",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2016-08/alibaba.png",
+        "content": "A digital roadmap to launch Alibaba Cloud in the international market",
+        "tags": "#DigitalTransformation"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2017-11/Banner%20image%20%281%29.jpg",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2017-11/logo.png",
+        "content": "24/7 AWS Infrastructure Management and Monitoring",
+        "tags": "#DevOps, #AWS"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2016-07/mat_small.jpg",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2016-07/Mat.se_.png",
+        "content": "Product Engineering partner for Sweden's leading e-commerce company",
+        "tags": "#ProductEngineering, #Grails"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2016-12/VGL_400pxX168px.jpg",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2016-12/VGL%20Logo_220pxX143px.jpg",
+        "content": "Designed and Developed Smart TV apps for 8 different platforms ",
+        "tags": "#Mobility, #ProductEngineering, #SmartTV"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2016-07/Kokaihop_small.jpg",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2016-07/Kokaihop.png",
+        "content": "Designed & developed web and mobile platforms for a recipe portal",
+        "tags": "#ProductEngineering, #MEAN, #Mobility"
+      },
+      {
+        "main_img": "http://static1.tothenew.com/sites/default/files/2016-07/qPlum_small.jpg",
+        "thumb": "http://static1.tothenew.com/sites/default/files/2016-07/qplum_0.png",
+        "content": "Developed multiple apps to support investors in decision making",
+        "tags": "#ProductEngineering, #Node.js"
+      }
+    ]
+  },
+  "insights": {
+    "hero_banner": {
+      "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2016-07/Insights_0.jpg?itok:Xj1mh4l9",
+      "alt": "insights-to-the-new",
+      "title": "Insights",
+      "page": "Insights",
+      "content": "Best of industry knowledge for you!"
+    },
+    "insights_con": {
+      "items": [
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-08/Whitepaper-thumbnail.jpg",
+          "alt": "Cloud Computing Quality Assurance Framework",
+          "title": "Whitepaper",
+          "content": "Cloud Computing Quality Assurance Framework"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/THUMBNAIL-_0.jpg",
+          "alt": "Core Elements of Continuous Testing",
+          "title": "Whitepaper",
+          "content": "Core Elements of Continuous Testing"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-01/Serverless%20Application%20Testing_0.png",
+          "alt": "Serverless Application Testing",
+          "title": "Whitepaper",
+          "content": "Serverless Application Testing"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2018-07/Social%20Listening%20Thumbnail.png",
+          "alt": "Social Listening Tools - A Comparative Analysis",
+          "title": "Whitepaper",
+          "content": "Social Listening Tools - A Comparative Analysis"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2018-06/thumbnail.png",
+          "alt": "Infrastructure As Code: Bringing Agility to DevOps",
+          "title": "Whitepaper",
+          "content": "Infrastructure As Code: Bringing Agility to DevOps"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2018-03/Thumbnail_300x232_px_How%20are%20brands%20transforming%20business%20models.png",
+          "alt": "How are Brands Transforming Digital Business Models",
+          "title": "Whitepaper",
+          "content": "[NASSCOM Whitepaper Series III] How are Brands Transforming Business Models? Uncovering Answers About Where to Play and How to Win!"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2018-10/Drupal%20Index%20Page%20%26%20Thumbnail.jpg",
+          "alt": "Test Automation in Agile",
+          "title": "Whitepaper",
+          "content": "Test Automation in Agile"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2018-03/Thumbnail_300x232px_4.png",
+          "alt": "",
+          "title": "Whitepaper",
+          "content": "The Role of Managed Service Providers for Effective Cloud Infrastructure Management"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2017-09/AI-IN-SOFTWARE-TESTING-WILL-BOTS%20REPLACE-HUMANS.jpg",
+          "alt": "Artificial Intelligence in Software Testing: Will Bots Replace Humans?",
+          "title": "Whitepaper",
+          "content": "Artificial Intelligence in Software Testing: Will Bots Replace Humans?"
+        }
+      ]
+    }
+  },
+  "jobs": {
+    "hero_banner": {
+      "img": "http://static1.tothenew.com/themes/ttnd/images/Join-Us.jpg",
+      "alt": "Jobs-at-ToTheNew",
+      "title": "Jobs",
+      "page": "Jobs",
+      "content": "Explore The New with us!"
+    },
+    "jobs_con": {
+      "items": [
+        {
+          "title": "Senior Software Engineer - MEAN",
+          "year": "3-5 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Senior Java Developer",
+          "year": "3-5 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Social Media Marketer",
+          "year": "2-4 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Technical Lead - iOS",
+          "year": "6-10 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Technical Lead - Android",
+          "year": "6-10 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Technical Lead - AEM",
+          "year": "6-10 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Senior Front End Developer",
+          "year": "4-6 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Senior Quality Engineer",
+          "year": "3-5 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Technical Lead - Android",
+          "year": "6-10 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Technical Lead - AEM",
+          "year": "6-10 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Senior Front End Developer",
+          "year": "4-6 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Senior Quality Engineer",
+          "year": "3-5 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Technical Lead - Android",
+          "year": "6-10 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Technical Lead - AEM",
+          "year": "6-10 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Senior Front End Developer",
+          "year": "4-6 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Senior Quality Engineer",
+          "year": "3-5 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Technical Lead - Android",
+          "year": "6-10 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Technical Lead - AEM",
+          "year": "6-10 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Senior Front End Developer",
+          "year": "4-6 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Senior Quality Engineer",
+          "year": "3-5 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Technical Lead - Android",
+          "year": "6-10 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Technical Lead - AEM",
+          "year": "6-10 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Senior Front End Developer",
+          "year": "4-6 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Senior Quality Engineer",
+          "year": "3-5 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Technical Lead - Android",
+          "year": "6-10 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Technical Lead - AEM",
+          "year": "6-10 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Senior Front End Developer",
+          "year": "4-6 YEARS",
+          "place": "NOIDA"
+        },
+        {
+          "title": "Senior Quality Engineer",
+          "year": "3-5 YEARS",
+          "place": "NOIDA"
+        }
+      ]
+    }
+  },
+  "job-newers-world": {
+    "hero_banner": {
+      "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2016-07/Newers-World-TTN.jpg?itok=8E63qrxU",
+      "alt": "newers-world-ttn",
+      "title": "Learn, Grow and DO THE NEW",
+      "page": "Careers",
+      "content": ""
+    },
+    "newers_con": {
+      "main_content": "A group of passionate people dedicated to making each day value-creating and successful. We aim to experiment, explore,and go beyond the obvious in order to achieve the unconquerable. Innovation is in our DNA and new is what we do.A Newer’s journey is full of Learning, Growth, and Fun!",
+      "learning": {
+        "main_title": "learning",
+        "items": [
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/2016-07/Bootcamp_1.jpg",
+            "alt": "Bootcamp",
+            "title": "BOOT CAMPS"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/2016-07/Campus%20To%20Office_1.jpg",
+            "alt": "campus-to-corporate",
+            "title": "CAMPUS TO CORPORATE"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/2016-07/Certification_0.jpg",
+            "alt": "Certifications",
+            "title": "CERTIFICATIONS"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/2016-07/Training_0.jpg",
+            "alt": "Trainings",
+            "title": "TRAININGS"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/2016-07/Conference_0.jpg",
+            "alt": "Conferences",
+            "title": "CONFERENCES"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/2016-07/Hackathon_0.jpg",
+            "alt": "Hackathon",
+            "title": "HACKATHON"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/2016-07/Learning%20Session_0.jpg",
+            "alt": "Learning-Sessions",
+            "title": "LEARNING SESSIONS"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/2016-07/Seminar_0.jpg",
+            "alt": "Seminars",
+            "title": "SEMINARS"
+          }
+        ]
+      },
+      "growth": {
+        "main_title": "Growth and Opportunity",
+        "main_content": "Discover the world of immense learning, growth and opportunities to empower yourself by building skills and gaining experience for a successful and fulfilling career — at TO THE NEW and beyond.",
+        "items": [
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/career-newers-world/Roni_312x174px.png",
+            "alt": "",
+            "content": "Talented people, great leadership and a collaborative work culture have helped me scale up from a fresher into a leadership role in a very short span of time. Couldn’t have asked for a better support system in terms of the people, training and environment.",
+            "title": "Roni C Thomas",
+            "role": "Cloud Operations Manager, Noida"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/career-newers-world/Dipti_312x174px.png",
+            "alt": "",
+            "content": "Quite rare to find an organization which helps to foster your passion and also resonates with your thought process at the same time. From a Technical Lead to being a Competency evangelist, TO THE NEW has helped opened new horizons for me.",
+            "title": "Dipti Narang",
+            "role": "Technical Manager, Noida"
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/career-newers-world/Aman_312x174px.png",
+            "alt": "",
+            "content": "From being one of the first few employees to leading a new practice, the opportunities to experiment and take risks is what keeps me going.",
+            "title": "Aman Aggarwal",
+            "role": "Assistant Vice President, Noida"
+          }
+        ]
+      },
+      "fun": {
+        "main_title": "Fun @ TO THE NEW",
+        "main_content": "Leverage our open-minded, vibrant and collaborative work environment which keeps our employees happy and energized. We do not believe in work hard-party harder. We believe in making Work a Party in itself; every day!",
+        "img1": "http://static1.tothenew.com/sites/default/files/styles/news_and_media/public/2018-06/TO%20THE%20NEW%20Employees%20%281%29.png?itok=hmn5LTJR",
+        "img2": "http://static1.tothenew.com/sites/default/files/styles/news_and_media/public/2018-06/TO%20THE%20NEW%20Employees%20%282%29.png?itok=OgYahcF-",
+        "img3": "http://static1.tothenew.com/sites/default/files/styles/news_and_media/public/2018-06/TO%20THE%20NEW%20Employees%20%283%29.png?itok=1L0nDxlg",
+        "img4": "http://static1.tothenew.com/sites/default/files/styles/news_and_media/public/2018-06/TO%20THE%20NEW%20Employees%20%284%29.png?itok=gOnkhy5W",
+        "img5": "http://static1.tothenew.com/sites/default/files/styles/news_and_media/public/2018-06/TO%20THE%20NEW%20Employees%20%285%29.png?itok=BRnUP675",
+        "img6": "http://static1.tothenew.com/sites/default/files/styles/news_and_media/public/2018-06/TO%20THE%20NEW%20Employees%20%286%29.png?itok=0idIAiy4",
+        "img7": "http://static1.tothenew.com/sites/default/files/styles/news_and_media/public/2018-06/TO%20THE%20NEW%20Employees%20%287%29.png?itok=IwYLGyom",
+        "img8": "http://static1.tothenew.com/sites/default/files/styles/news_and_media/public/2018-06/TO%20THE%20NEW%20Employees%20%288%29.png?itok=QID1fxeV",
+        "img9": "http://static1.tothenew.com/sites/default/files/styles/news_and_media/public/2018-06/TO%20THE%20NEW%20Employees%20%289%29.png?itok=P82-VVn_"
+      }
+    }
+  },
+  "job-campus": {
+    "hero_banner": {
+      "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2016-07/Newers-World.jpg?itok=x2z9U5Om",
+      "alt": "newers-world",
+      "title": "Your first step to NEWERS World!",
+      "page": "Careers",
+      "content": ""
+    },
+    "lookig_for": {
+      "main_title": "What are we looking for?",
+      "main_content": "We’re looking for Gen-Y workforce who can bring fresh perspectives, innovative ideas and positive attitude to our growing teams. We value your knowledge, passion and desire to learn and help you become a successful global professional.",
+      "items": [
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2016-07/Collaborative%20Spirit.png",
+          "title": "Collaborative Spirit",
+          "content": "We treasure the spirit of collaboration and teamwork that helps us achieve our organizational goals faster."
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2016-07/Diligence%20and%20Commitment.png",
+          "title": "Diligence and Commitment",
+          "content": "We respect hard-working and diligent people who are committed to learning and growing while meeting client’s expectations."
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2016-08/download_2.png",
+          "title": "Innovative Thinker",
+          "content": "We admire fresh talent who can bring innovative and revolutionary ideas and strive for excellence while achieving common goals."
+        }
+      ]
+    },
+    "for_you": {
+      "main_title": "What is in it for you?",
+      "items": [
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2016-07/Growth%20%26%20Opportunity.jpg",
+          "title": "Growth and Opportunities"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2016-07/Bootcamp.jpg",
+          "title": "Continuous Learning"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2016-07/Open%20%26%20Friendly%20Emvironment.jpg",
+          "title": "An Inspiring Workplace"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2016-07/Rewards%20%26%20Recoginition.jpg",
+          "title": "Rewards and Recognition"
+        }
+      ]
+    }
+  },
+  "contact-us": {
+    "hero_banner": {
+      "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_small/public/2016-10/Contact-Us_banner_0.png?itok=LLJkVteP",
+      "alt": "",
+      "title": "Contact Us",
+      "page": "Contact Us",
+      "content": ""
+    }
+  },
+  "about-us": {
+    "hero_banner": {
+      "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2016-07/About-us.jpg?itok=tGfr44Dh",
+      "alt": "About-us",
+      "title": "About",
+      "page": "About",
+      "content": "We are a digital technology company that drives digital transformation and builds disruptive technology solutions"
+    },
+    "who_we_are": {
+      "main_title": "Who we are?",
+      "main_content": "TO THE NEW is a premium digital technology company that provides end-to-end Product Engineering and Digital Transformation services to Fortune 500 companies and Silicon Valley startups across the globe.We cover the entire gamut of product engineering including user experience design, web & mobile application development, cloud, devOps, big data, testing and infrastructure managed services to transform businesses digitally. At TO THE NEW, design led engineering is at the core of our offerings. Some of the cutting-edge technologies, frameworks and platforms we work on include MEAN, Grails, IoT, Blockchain, Bootstrap, AEM, Drupal, Hadoop, AWS, React, Ionic, Roku, iOS, and Android.The DNA of our Product Engineering services include design led engineering, cloud-native development, microservices driven architecture, DevOps, & CICD-led processes. Being an Agile company, we respond to change and pivot fast to create the best market fit with a quick turnaround time. ",
+      "img": "http://static1.tothenew.com/sites/default/files/inline-images/TTN%20Floor%20%281%29_0.jpg"
+    },
+    "what_do_we_stand_for": {
+      "main_title": "What do we stand for",
+      "items": [
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2016-07/Social%20Customer%20Engagement_0.png",
+          "alt": "Customer Success",
+          "title": "Customer Success",
+          "content": "Customer success is more important than anything else"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2016-07/Governance_0.png",
+          "alt": "Transparency",
+          "title": "Transparency",
+          "content": "Transparency and honesty in whatever we do and say"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2016-07/Performance_0.png",
+          "alt": "Agility",
+          "title": "Agility",
+          "content": "Speed and Agility in all our actions"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2016-07/Planning_1.png",
+          "alt": "Constant Learning",
+          "title": "Constant Learning",
+          "content": "Pushing ourselves for constant learning"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2016-07/Product%20Consulting_1.png",
+          "alt": "Entrepreneurial Spirit",
+          "title": "Entrepreneurial spirit",
+          "content": "Spirit of entrepreneurship defines us"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2016-07/Experience%20Design_2.png",
+          "alt": "Innovation",
+          "title": "Creativity and Innovation",
+          "content": "Thinking outside the box"
+        }
+      ]
+    },
+    "our_partners": {
+      "main_title": "Our Partners",
+      "main_content": "We partner with forward thinking cloud service providers, container platforms, and multiple other technology led businesses.",
+      "items": [
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/inline-images/amazon.jpg",
+          "alt": "Amazon"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/inline-images/adobe.jpg",
+          "alt": "Adobe"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/inline-images/microsoft.jpg",
+          "alt": "Microsoft"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/inline-images/docker.jpg",
+          "alt": "Docker"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/inline-images/acquia.jpg",
+          "alt": "Acquia"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/inline-images/elemental.jpg",
+          "alt": "Elemental"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/inline-images/ir-deto.jpg",
+          "alt": "IR Deto"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/inline-images/cloudinary.jpg",
+          "alt": "Cloudinary"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/inline-images/datastax.jpg",
+          "alt": "Datastax"
+        }
+      ]
+    },
+    "events": {
+      "main_title": "Events",
+      "items": [
+        {
+          "title": "10/July/2019",
+          "content": "TO THE NEW Sponsors the 4th Annual…"
+        },
+        {
+          "title": "20/June/2019",
+          "content": "TO THE NEW sponsors 3rd Marketing…"
+        },
+        {
+          "title": "16/May/2019",
+          "content": "TO THE NEW Sponsors AWS Summit,…"
+        }
+      ]
+    },
+    "media_coverage": {
+      "main_title": "Media Coverage",
+      "items": [
+        {
+          "title": "22/August/2019",
+          "content": "TO THE NEW develops ‘Performance…"
+        },
+        {
+          "title": "12/August/2019",
+          "content": "TO THE NEW Offers ESOPs to Its…"
+        },
+        {
+          "title": "12/August/2019",
+          "content": "Decoding Netflix’s new price plan…"
+        }
+      ]
+    }
+  },
+  "leadership": {
+    "hero_banner": {
+      "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2016-07/Leadership_0.jpg?itok=RDzs1OOa",
+      "alt": "leadership",
+      "title": "Leadership",
+      "page": "Leadership",
+      "content": "Meet the seasoned leaders who made TO THE NEW possible."
+    },
+    "founding_team": {
+      "main_title": "Founding Team",
+      "items": [
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/deepak-mittal_1.png",
+          "alt": "deepak-mittal",
+          "title": "Deepak Mittal",
+          "content": "Co-Founder and CEO"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/narinder-kumar.png",
+          "alt": "Narinder-Kumar",
+          "title": "Narinder Kumar",
+          "content": "Co-Founder and COO"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/raman-mittal.png",
+          "alt": "Raman-Mittal",
+          "title": "Raman Mittal",
+          "content": "Co-Founder and CMO"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/satya-sheel.png",
+          "alt": "Satya-Sheel",
+          "title": "Satya Sheel",
+          "content": "Co-Founder and CHRO"
+        }
+      ]
+    },
+    "delivery_leadership": {
+      "main_title": "Delivery Leadership",
+      "items": [
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/Sidharth-Nehra.png",
+          "alt": "Sidharth-Nehra",
+          "title": "Sidharth Nehra",
+          "content": "AVP - Technology"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/gopesh-verma.png",
+          "alt": "Gopesh-Verma",
+          "title": "Gopesh Verma",
+          "content": "Business Unit Head - Middle East"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/aman-aggarwal.png",
+          "alt": "Aman-Aggarwal",
+          "title": "Aman Aggarwal",
+          "content": "AVP - Technology"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/Divyanshu-Bhushan.png",
+          "alt": "Divyanshu-Bhushan",
+          "title": "Divyanshu Bhushan",
+          "content": "AVP - Technology"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/Ashish-Singh-Panwar.png",
+          "alt": "Ashish-Singh-Panwar",
+          "title": "Ashish Singh Panwar",
+          "content": "AVP - Technology"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/Akhil-Kakroo.png",
+          "alt": "Akhil-Kakroo",
+          "title": "Akhil Kakroo",
+          "content": "AVP - Video Managed Services"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/Gayatri-Deshpande.png",
+          "alt": "Gayatri-Deshpande",
+          "title": "Gayatri Deshpande",
+          "content": "AVP - Marketing"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/Kinshuk-Jhala.png",
+          "alt": "Kinshuk-Jhala",
+          "title": "Kinshuk Jhala",
+          "content": "Senior Manager - Marketing"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/roni-c.png",
+          "alt": "Roni-C-Thomas",
+          "title": "Roni C Thomas",
+          "content": "Manager - Cloud Operations"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/Vineet-Kansal.png",
+          "alt": "Vineet",
+          "title": "Vineet Kansal",
+          "content": "Delivery Director - Technology"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/akash-agarwal.png",
+          "alt": "Akash-Agrawal",
+          "title": "Akash Agrawal",
+          "content": "VP - Technology"
+        }
+      ]
+    },
+    "sales_team": {
+      "main_title": "Sales Team",
+      "items": [
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/Naman-Jain.png",
+          "alt": "Naman-Jain",
+          "title": "Naman Jain",
+          "content": "AVP – Sales"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/Ashish-Mishra.png",
+          "alt": "Ashish-Mishra",
+          "title": "Ashish Mishra",
+          "content": "AVP – Sales"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/Gurjot-Singh.png",
+          "alt": "Gurjot-Singh",
+          "title": "Gurjot Singh",
+          "content": "AVP – Sales"
+        }
+      ]
+    },
+    "enabling_functions": {
+      "main_title": "Enabling Functions",
+      "items": [
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/Sanjay-Jain.png",
+          "alt": "Sanjay-Jain",
+          "title": "Sanjay Jain",
+          "content": "Senior Manager - Finance"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/Kirti.png",
+          "alt": "Kirti-Sharma",
+          "title": "Kirti Sharma",
+          "content": "AVP - Human Resources"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/Deepak-Handuja.png",
+          "alt": "Deepak-Handuja",
+          "title": "Deepak Handuja",
+          "content": "AVP - Administration & IT"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/Charu-Balani.png",
+          "alt": "Charu-Balani",
+          "title": "Charu Balani",
+          "content": "AVP- Talent Acquisition"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2019-07/Pallav-Sharma.png",
+          "alt": "Pallav-sharma",
+          "title": "Pallav sharma",
+          "content": "AVP - Finance"
+        }
+      ]
+    }
+  },
+  "partnership": {
+    "hero_banner": {
+      "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2017-05/partner-banner.jpg?itok=aY8RRr3R",
+      "alt": "",
+      "title": "Our Partners",
+      "page": "Partners",
+      "content": "We partner with forward thinking cloud service providers and other businesses"
+    },
+    "partners_con": {
+      "main_content": "We leverage cutting-edge technologies of our partners to disrupt the digital ecosystem. We are proud to be associated with many such forward thinking businesses including Cloud Service Providers, Container Platforms, Enterprise Database Management Vendors, and Content Management Platforms.",
+      "items": [
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2018-12/aws-logo-new.png",
+          "alt": "AWS Premier Consulting Partner",
+          "content": "AWS Premier Consulting Partner"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2017-05/adobe.png",
+          "alt": "Adobe",
+          "content": "Trusted partner for Adobe Marketing Cloud integrated solutions"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2017-05/microsoft-azure.png",
+          "alt": "Microsoft-Azure",
+          "content": "Microsoft Azure Cloud Partner"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2017-05/docker.png",
+          "alt": "Docker-DevOps",
+          "content": "Active members of Docker Partner Program"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2017-05/acquia.png",
+          "alt": "Acquia-Drupal",
+          "content": "Certified Acquia Community Partner to deliver best-in-class digital experiences"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2017-05/elemental.png",
+          "alt": "Elemental",
+          "content": "Advanced Solution Partner of Elemental (world's most advanced transcoder)"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2017-05/irdeto.png",
+          "alt": "Irdeto",
+          "content": "Multi- DRM partners (Global Leadaers in Content Security)"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2017-07/cloudinary.png",
+          "alt": "Cloudinary",
+          "content": "Certified Cloudinary Integrator"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/2017-05/datastax.png",
+          "alt": "Datastax",
+          "content": "Silver partner for Big Data solutions"
+        }
+      ]
+    }
+  },
+  "press-releases": {
+    "hero_banner": {
+      "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2016-07/News_0.jpg?itok=JCg0VMAm",
+      "alt": "news",
+      "title": "Press Releases",
+      "page": "Press Releases",
+      "content": "We are making headlines. Take a look."
+    },
+    "press_releases_con": {
+      "items": [
+        {
+          "content": "TO THE NEW Develops ‘Performance Smartboard’ for the Ministry of External Affairs  ",
+          "date": "2019-08-22"
+        },
+        {
+          "content": "TO THE NEW Sponsors 3rd Marketing Analytics Summit, 2019",
+          "date": "2019-06-26"
+        },
+        {
+          "content": "TO THE NEW showcases HAWK & My Cloud at AWS Summit 2019  ",
+          "date": "2019-05-17"
+        },
+        {
+          "content": "TO THE NEW Named as Best MarTech Company of the Year  ",
+          "date": "2019-05-01"
+        },
+        {
+          "content": "This World Earth Day, TO THE NEW pledges to plant over 100 Trees in Noida",
+          "date": "2019-04-23"
+        },
+        {
+          "content": "TO THE NEW Exhibits at The NAB Show, 2019 ",
+          "date": "2019-04-16"
+        },
+        {
+          "content": "TO THE NEW organizing Techfluence: One of the best digital technology conferences of Delhi/NCR",
+          "date": "2019-03-26"
+        },
+        {
+          "content": "TO THE NEW Introduces a Powerful end to end Application Stack Monitoring Solution - HAWK",
+          "date": "2019-03-06"
+        },
+        {
+          "content": "TO THE NEW co-sponsored the EdTechReview Summit  & Expo, 2019",
+          "date": "2019-02-26"
+        },
+        {
+          "content": "TO THE NEW Announces the Appointment of Mr. Najam Kidwai on the Company’s Board",
+          "date": "2019-02-13"
+        },
+        {
+          "content": "TO THE NEW Achieves AWS Premier Consulting Partner Status",
+          "date": "2019-01-07"
+        },
+        {
+          "content": "TO THE NEW Positioned as a Leading Software Product Engineering Service Provider by Zinnov Zones 2018 Report",
+          "date": "2018-12-20"
+        },
+        {
+          "content": "TO THE NEW Bags AWS Managed Service Provider (MSP) Partner Badge",
+          "date": "2018-11-29"
+        },
+        {
+          "content": "TO THE NEW Recognized by Great Place to Work® Institute as one of the Top 50 IT & IT-BPM Companies, 2018",
+          "date": "2018-11-29"
+        },
+        {
+          "content": "TO THE NEW Becomes a Certified AWS Public Sector Partner  ",
+          "date": "2018-06-13"
+        },
+        {
+          "content": "TO THE NEW Organized and Sponsored TechFluence, 2018: The Most Happening Tech Conference of Delhi/NCR",
+          "date": "2018-03-26"
+        },
+        {
+          "content": "TO THE NEW Bags Best SEZ (MSME) Award ",
+          "date": "2018-02-19"
+        },
+        {
+          "content": "‘TO THE NEW’ Launches A Unique Cloud Management Platform",
+          "date": "2018-01-17"
+        },
+        {
+          "content": "TO THE NEW hosted 2017 GDG DevFest Android Track",
+          "date": "2017-10-30"
+        },
+        {
+          "content": "TO THE NEW in Top 50 in India's Mid-size Workplaces",
+          "date": "2017-08-11"
+        },
+        {
+          "content": "TO THE NEW Bags AWS Managed Service Provider (MSP) Partner Badge",
+          "date": "2018-01-05"
+        },
+        {
+          "content": "TO THE NEW along with Amazon Web Services successfully decoded Digital Transformation through a one of its kind event",
+          "date": "2017-05-27"
+        },
+        {
+          "content": "TO THE NEW decodes Digital Transformation at the CDO Conclave, Dubai ",
+          "date": "2017-03-22"
+        },
+        {
+          "content": "TO THE NEW Decodes Digital Transformation at the BIG CIO Show",
+          "date": "2017-06-13"
+        },
+        {
+          "content": "Adobe recognizes TO THE NEW as the “Most Promising Digital Marketing Partner”",
+          "date": "2016-12-03"
+        },
+        {
+          "content": "Invest India Selects TO THE NEW To Build Their Digital Platform",
+          "date": "2017-02-07"
+        }
+      ]
+    }
+  },
+  "awards": {
+    "hero_banner": {
+      "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2016-07/Awards_0.jpg?itok=VL24Ae2O",
+      "alt": "awards",
+      "title": "Awards & Recognitions",
+      "page": "Awards",
+      "content": "Our journey towards success is marked with moments and milestones of pride and esteem"
+    },
+    "awards_con": {
+      "items": [
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-07/GPTW_ET_PNG_1_3.png?itok=tqyN_51l",
+          "alt": "TO THE NEW Recognized Among India’s Top 100 Best Companies To Work For, 2019",
+          "content": "TO THE NEW Recognized Among India’s Top 100 Best Companies To Work For, 2019",
+          "date": "2019-07-01"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-05/Digital%20Customer%20Experience%20logo.png?itok=j3N4F7Ox",
+          "alt": "TO THE NEW Wins Best MarTech Company of the Year",
+          "content": "TO THE NEW Wins Best MarTech Company of the Year  ",
+          "date": "2019-05-01"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2018-12/Zones2-ER%26D-Logo.jpg?itok=Kzh6RlDB",
+          "alt": "TO THE NEW in Zinnov Zones",
+          "content": "TO THE NEW Featured in Zinnov Zones 2018 ER&D Ratings",
+          "date": "2018-12-20"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2018-11/India%27s%20Best%20Workplaces%20-%20IT%20%26%20IT-BPM%20%28RGB%29.jpg?itok=9DiyrQjQ",
+          "alt": "TO THE NEW Recognized Among Top 50 India’s Best Workplaces in IT & IT-BPM, 2018",
+          "content": "TO THE NEW Recognized Among Top 50 India’s Best Workplaces in IT & IT-BPM, 2018",
+          "date": "2018-11-23"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2018-11/AWS%20Premier%20Consulting%20Partner.png?itok=1fL21BZl",
+          "alt": "TO THE NEW Achieves AWS Premier Consulting Partner Status",
+          "content": "TO THE NEW Achieves AWS Premier Consulting Partner Status",
+          "date": "2018-11-05"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2018-08/Great%20Mid-Size%20Workplaces%20%28RGB%29_0.png?itok=PcQ_wQF5",
+          "alt": "TO THE NEW in the Top 50 List of India 's Great Mid-Size Companies, 2018 by Great Place to Work®",
+          "content": "TO THE NEW Recognized as one of India’s Mid-Size Workplaces - 2018 by Great Place to Work® Instit",
+          "date": "2018-08-08"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2018-07/MnM_logo_TM-1.jpg?itok=dE-qIrY1",
+          "alt": "TO THE NEW Features in Markets&Markets Report",
+          "content": "TO THE NEW Features in Markets&Markets Devops Research Report, 2018",
+          "date": "2018-07-02"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2018-06/PublicSectorPartner-01%20resize.png?itok=o08OlMvj",
+          "alt": "TO THE NEW is Now An Authorized Public Sector AWS Partner",
+          "content": "TO THE NEW is Now An Authorized Public Sector AWS Partner",
+          "date": "2018-06-11"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2018-02/EPCES%20logo.jpg?itok=KKWvCOhW",
+          "alt": "TO THE NEW Wins Best SEZ (MSME) Award ",
+          "content": "TO THE NEW Bags Best SEZ (MSME) Award   ",
+          "date": "2018-02-16"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2017-12/Zinnov%20Zones%20PES%20logo_1.png?itok=mLoWxgm7",
+          "alt": "Zinnov Zones",
+          "content": "TO THE NEW Debuts in Zinnov Zones 2017 Product Engineering Services Ratings ",
+          "date": "2017-12-06"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2017-08/Mid%20Sized%20Co%20Logo%20drupal%202.jpg?itok=qDnm2lSw",
+          "alt": "TO THE NEW Recognized by Great Place To Work, 2017",
+          "content": "TO THE NEW Recognized as one of India 's Great Mid-Size Companies, 2017 by Great Place to Work® I",
+          "date": "2017-08-21"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2017-06/LOgo%20resize-01.jpg?itok=KNTMcE_D",
+          "alt": "Brands Academy",
+          "content": "TO THE NEW wins 'Most Promising Digital Technology Company of the Year' award",
+          "date": "2017-06-02"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2017-03/Digital-Economy-Conclave-Logo.jpg?itok=Q4Q2KKAC",
+          "alt": "wins-the-excellence-in-digital-transformation-award",
+          "content": "TO THE NEW Wins the Excellence in Digital Transformation Award",
+          "date": "2017-03-24"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2017-01/rsz_2000px-adobe_systems_logo_and_wordmarksvg.png?itok=d_X8ZDdA",
+          "alt": "Logo",
+          "content": "Adobe crowns TO THE NEW “Most Promising Digital Marketing Partner” ",
+          "date": "2017-01-09"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2016-07/Great-Place-To-Work.png?itok=yC1pNg38",
+          "alt": "Great-Place-to-work",
+          "content": "Great Place to work - Best companies to work",
+          "date": ""
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2016-07/Campaign-India-Digital-Crest-Awards-2015.png?itok=QYUUn3OJ",
+          "alt": "Red-Herring-Top-100-Asia-2015",
+          "content": "Bronze at Campaign India Digital Crest Awards 2015",
+          "date": ""
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2016-07/Red-Herring-Top-100-Asia-2015.png?itok=skMh6pSf",
+          "alt": "Red-Herring-Top-100-Asia-2015",
+          "content": "",
+          "date": ""
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2016-07/Effie-Awards-2014.png?itok=rMJgnU47",
+          "alt": "Effie-Awards-2014",
+          "content": "Bronze Effie Award for the best Digital Campaigns for Castrol India",
+          "date": ""
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2016-07/CMO-Asia-Award.png?itok=r0tAcTIc",
+          "alt": "CMO-Asia-Award",
+          "content": "'Best Digital Integrated Campaign Award' at the CMO Asia Awards",
+          "date": ""
+        }
+      ]
+    }
+  },
+  "media-coverage": {
+    "hero_banner": {
+      "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2016-07/Media%20Coverage.jpg?itok=dua9DsER",
+      "alt": "Media-Coverage",
+      "title": "Media Coverage",
+      "page": "Media Coverage",
+      "content": "We are well-recognized across the press"
+    },
+    "media_coverage_con": {
+      "items": [
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-08/brand%20equity.png?itok=PEtH3pTl",
+          "alt": "TO THE NEW develops ‘Performance Smartboard’ for the Ministry of External Affairs",
+          "content": "TO THE NEW develops ‘Performance Smartboard’ for the Ministry of External Affairs  ",
+          "date": "2019-08-22"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-08/ET.png?itok=qT1Xl4Y2",
+          "alt": "TO THE NEW Offers ESOPs to Its Employees",
+          "content": "TO THE NEW Offers ESOPs to Its Employees",
+          "date": "2019-08-12"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-08/E4M.png?itok=bOQ0V3HZ",
+          "alt": "Decoding Netflix’s new price plan for India",
+          "content": "Decoding Netflix’s new price plan for India",
+          "date": "2019-08-12"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-08/ITvoice.jpg?itok=KUrBp43T",
+          "alt": "TO THE NEW Visits National Association for the Blind",
+          "content": "TO THE NEW Visits National Association for the Blind",
+          "date": "2019-08-05"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-07/Tribune%20logo.jpg?itok=PFU3RVkG",
+          "alt": "India’s Best Companies To Work At",
+          "content": "India’s Best Companies To Work At",
+          "date": "2019-07-10"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-07/Indian_Television_0.jpg?itok=FaImPX2u",
+          "alt": "TO THE NEW showcased Digital Analytics Services at 3rd Marketing Analytics Summit, 2019",
+          "content": "TO THE NEW showcased Digital Analytics Services at 3rd Marketing Analytics Summit, 2019",
+          "date": "2019-07-02"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-06/fe.png?itok=QmBqNhuP",
+          "alt": "TO THE NEW in Financial Express",
+          "content": "Channelising social chatter: What is the potential of social media listening and analytics?",
+          "date": "2019-06-19"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-05/News_barrons.png?itok=jewWF6Lo",
+          "alt": "TO THE NEW Named Best MarTech Company of the Year",
+          "content": "TO THE NEW Named Best MarTech Company of the Year",
+          "date": "2019-05-01"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-05/livemint_logo.jpg?itok=-GMb6FRM",
+          "alt": "The social network within the office",
+          "content": "The social network within the office  ",
+          "date": "2019-05-01"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-04/uniindia-logo.png?itok=zPoUUZe5",
+          "alt": "TO THE NEW Announces the Appointment of Mr. Najam Kidwai on the Company’s Board",
+          "content": "TO THE NEW Announces the Appointment of Mr. Najam Kidwai on the Company’s Board",
+          "date": "2019-04-20"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-04/Et%20Tech%20logo.jpg?itok=ZpGY3cUo",
+          "alt": "TO THE NEW aims to expand India ops to cater the growing demand for digital services",
+          "content": "TO THE NEW aims to expand India ops to cater the growing demand for digital services",
+          "date": "2019-04-20"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-04/bt-updated-logo.png?itok=c3EOKXBO",
+          "alt": "businesstoday",
+          "content": "International Women's Day: 5 ways to empower women in your workforce",
+          "date": "2019-04-20"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-04/bisinfotech-web%20logo_0.png?itok=6O1VT0Dg",
+          "alt": "TO THE NEW to Host Its Flagship Tech Confererence, Techfluence",
+          "content": "TO THE NEW to Host Its Flagship Tech Conference, Techfluence",
+          "date": "2019-04-20"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-04/Tribune_logo.jpg?itok=8SF19rhZ",
+          "alt": "Master Cloud Competence- Satya Sharma, TO THE NEW",
+          "content": "Master Cloud Competence- Satya Sharma, TO THE NEW",
+          "date": "2019-04-15"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-02/bisinfotech-web%20logo.png?itok=dLnPUh8q",
+          "alt": "TO THE NEW co-sponsored EdTechReview Summit & Expo, 2019",
+          "content": "TO THE NEW co-sponsored EdTechReview Summit & Expo, 2019",
+          "date": "2019-02-26"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-02/IT_Voice.png?itok=5rNjXZFS",
+          "alt": "TO THE NEW Achieves AWS Premier Consulting Partner Status",
+          "content": "TO THE NEW Achieves AWS Premier Consulting Partner Status",
+          "date": "2019-01-09"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2018-11/BT%20final%20logo.jpg?itok=DH9yMoS9",
+          "alt": "TO THE NEW Recognized Among Top 50 India’s Best Workplaces in IT & IT-BPM, 2018",
+          "content": "TO THE NEW Recognized Among Top 50 India’s Best Workplaces in IT & IT-BPM, 2018",
+          "date": "2018-11-29"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2018-04/CSO%20logo_3.jpg?itok=YETT_-qs",
+          "alt": "Blockchain: The Growth-Driving Technology",
+          "content": "Blockchain: The Growth-Driving Technology",
+          "date": "2018-04-12"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2018-03/dq-logo_1.png?itok=0z-QKd-Q",
+          "alt": "DQ",
+          "content": "TO THE NEW Successfully Organized TechFluence 2018: The Most Happening Tech Conference",
+          "date": "2018-03-27"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2018-03/ITvoice_0.jpg?itok=Tfjx2Mox",
+          "alt": "TO THE NEW Bags Best SEZ (MSME) Award",
+          "content": "TO THE NEW Bags Best SEZ (MSME) Award",
+          "date": "2018-03-05"
+        }
+      ]
+    }
+  },
+  "events": {
+    "hero_banner": {
+      "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2016-07/Events_0.jpg?itok=RsF9Z35H",
+      "alt": "events-tothenew",
+      "title": "Events",
+      "page": "Events",
+      "content": "Building a great place to work with variety of events"
+    },
+    "events_con": {
+      "items": [
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-07/4th%20annual%20insurance%20india%20summit%20logo.jpg?itok=jsSvICNi",
+          "alt": "TO THE NEW Sponsors the 4th Annual Insurance India Summit",
+          "content": "TO THE NEW Sponsors the 4th Annual Insurance India Summit",
+          "date": "2019-07-10"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-06/logo-home_0.png?itok=wiV3vSLx",
+          "alt": "TO THE NEW sponsors 3rd Marketing Analytics Summit, 2019 ",
+          "content": "TO THE NEW sponsors 3rd Marketing Analytics Summit, 2019 ",
+          "date": "2019-06-20"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-05/AWS%20Summit%20logo%20dark_0.png?itok=kAb1q5w3",
+          "alt": "TO THE NEW Sponsors AWS Summit, Mumbai",
+          "content": "TO THE NEW Sponsors AWS Summit, Mumbai",
+          "date": "2019-05-16"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-04/techfluence-logo-bg.png?itok=SpuzS8Gl",
+          "alt": "TO THE NEW Organised Techfluence, 2019",
+          "content": "TO THE NEW Organised Techfluence, 2019",
+          "date": "2019-04-22"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-04/smart_data_summit.png?itok=ilktuC_X",
+          "alt": " Smart Data Summit",
+          "content": "TO THE NEW Sponsors 6th Annual Smart Data Summit",
+          "date": "2019-04-09"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-03/summit-logo.png?itok=abLKur4X",
+          "alt": "summit-logo",
+          "content": "TO THE NEW will be at Adobe Summit 2019",
+          "date": "2019-03-14"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-02/nabshow%20logo%20event%20page_1.jpg?itok=tK9YUOSb",
+          "alt": "TO THE NEW Exhibiting at NAB Show, 2019",
+          "content": "TO THE NEW Exhibiting at NAB Show, 2019",
+          "date": "2019-02-21"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-02/ETR%20Logo%20HD_1.png?itok=UUqYMCev",
+          "alt": "TO THE NEW at EdTechReview Summit & Expo",
+          "content": "TO THE NEW at EdTechReview Summit & Expo, Bengaluru",
+          "date": "2019-02-11"
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/styles/news_media/public/2019-02/SaaStr2019.png?itok=OXudg7Jy",
+          "alt": "TO THE NEW at SaaStr Annual 2019",
+          "content": "TO THE NEW at SaaStr Annual 2019",
+          "date": "2019-02-04"
+        }
+      ]
+    }
+  },
+  "csr": {
+    "hero_banner": {
+      "img": "http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2019-04/csr-banner.jpg?itok=dsb0nfMM",
+      "alt": "CSR",
+      "title": "Our Social Impact",
+      "page": "CSR",
+      "content": "We measure our success by the positive impact we leave on our people and society"
+    },
+    "csr_con": {
+      "main_title": "Overview",
+      "main_content": "Pahal, TO THE NEW’s CSR initiative, aims to support causes that impact life meaningfully. As part of the CSR program, we plan different ways to give back to the society that leave a positive impact. With monthly campaigns, our partnerships with NGOs and regular collection of funds, we keep the CSR wheel well oiled and continue to contribute to the society. Along the way, we have come across and built beautiful relationships with people who truly needed a helping hand.",
+      "title": "Here’s a Sneak Peek Into Our CSR Efforts!",
+      "items": [
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/inline-images/pahal.png",
+          "alt": "Pahal",
+          "title": "Pahal Funds",
+          "content1": "As a regular practice, we leave the platform open for our Newers to contribute monetarily.The funds collected at the end of each cycle is eventually matched by TO THE NEW, before donating to a charity or an NGO.",
+          "content2": "The monetary funds also work as a fuel that keep the CSR wheel running for TO THE NEW and ensures regular contribution to the society."
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/inline-images/prayas.png",
+          "alt": "Prayas",
+          "title": "Prayas",
+          "content1": "As a long term commitment, we have established a partnership with Prayas Vidyalaya to extend maximum aid in terms of time and money for the underprivileged children.",
+          "content2": "TO THE NEW’s dedicated team extends a helping hand to the children of Prayas Vidyalaya every week, and help them move forward with the power of education."
+        },
+        {
+          "img": "http://static1.tothenew.com/sites/default/files/inline-images/Monthly-Campaigns.png",
+          "alt": "Monthly Campaigns",
+          "title": "Monthly Campaigns",
+          "content1": "In a bid to align our company's values with the greater good, TO THE NEW takes CSR initiatives every month that leave a positive impact on human lives. From plantation and blood donation drives to monetary donations for natural disaster hit areas and conducting educational sessions for the underprivileged- we do it all.",
+          "content2": ""
+        }
+      ],
+      "csr_initiatives": {
+        "main_title": "TO THE NEW’s CSR Initiatives",
+        "items": [
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/2019-08/DEF08277-min.jpg",
+            "alt": "TO THE NEW Visits National Association for the Blind",
+            "title": "Visit to National Association for the Blind ",
+            "content": "We recently made a visit to the National Association for the Blind, in New Delhi."
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/2019-05/tree-plantation-drive-in-noida.jpg",
+            "alt": "Tree Plantation Drive in Noida",
+            "title": "Tree Plantation Drive in Noida ",
+            "content": "TO THE NEW continues to drive its Social Impact Mission with yet another Go-Green..."
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/2019-04/family-donation.png",
+            "alt": "Family Donation",
+            "title": "Donation for Families of Pulwama Attack ",
+            "content": "As our country recuperates from the gruesome attack in Pulwama, we at the TO THE NEW would..."
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/2019-04/guru-visit_0.png",
+            "alt": "Guru Visit",
+            "title": "Visit to Guru Vishram Vridh Ashram ",
+            "content": "Our Newers spent this weekend at Guru Vishram Vridh Ashram. Team Pahal along with a..."
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/2019-04/blanket-distribute_0.png",
+            "alt": "Blanket Donation",
+            "title": "Blanket Distribution Drive ",
+            "content": "Team Pahal conducted a blanket distribution drive in the month of December, 2018..."
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/2019-04/eng-spoken_0.png",
+            "alt": "Eng Spoken",
+            "title": "Spoken English Sessions at Prayas ",
+            "content": "The sessions at Prayas Vidyalaya, spread over two weeks, have been full of informative..."
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/2019-04/saikripa-visit_0.png",
+            "alt": "SaiKripa",
+            "title": "Visit to Saikripa Orphanage ",
+            "content": "The members of Pahal team spent an evening with the kids of Saikripa Orphanage. There.."
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/2019-04/karala-food.png",
+            "alt": "Kerala Food",
+            "title": "Kerala Flood Relief Donation ",
+            "content": "TO THE NEW ran a campaign in collaboration with Goonj to support Kerala in times of..."
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/2019-04/computer-test.png",
+            "alt": "Computer Literacy",
+            "title": "Computer Literacy Test at TO THE NEW ",
+            "content": "TO THE NEW has a long-term commitment with Prayas Vidyalaya-an initiative by AID..."
+          },
+          {
+            "img": "http://static1.tothenew.com/sites/default/files/2019-04/blood-donation.png",
+            "alt": "Blood Donation",
+            "title": "Blood Donation Drive at TO THE NEW ",
+            "content": "Every once in a while, TO THE NEW organizes blood donation drives in our office premises..."
+          }
+        ]
+      }
+    }
+  },
+  "blog": {
+    "hero_banner": {
+      "img": "http://static1.tothenew.com/blog/wp-content/themes/ttn/images/banner/blog-banner.jpg",
+      "title": "Blogs",
+      "page": "Blog",
+      "content": "Told you, we love sharing!"
+    }
+  }
+}

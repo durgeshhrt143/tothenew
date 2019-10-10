@@ -1,24 +1,29 @@
-import React, { Fragment } from "react";
+import React, { Fragment, Component } from "react";
 import Header from "./../Layout/Header";
 import Footer from "./../Layout/Footer";
 import SubscribeToOurInsights from "./../Layout/SubscribeToOurInsights";
 import HeroBanner from "./../common/HeroBanner";
 import PressReleasesCon from "./partials/PressReleasesCon";
-const PressReleases = props => {
-  return (
-    <Fragment>
-      <Header />
-      <HeroBanner
-        img={`http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2016-07/News_0.jpg?itok=JCg0VMAm`}
-        title={`Press Releases`}
-        page={"Press Releases"}
-        content={`We are making headlines. Take a look.`}
-      />
-      <PressReleasesCon />
-      <SubscribeToOurInsights />
-      <Footer />
-    </Fragment>
-  );
-};
-
+import { getPressReleasesService } from "../../services/PressReleasesService";
+class PressReleases extends Component {
+  state = {};
+  async componentDidMount() {
+    const { data } = await getPressReleasesService();
+    this.setState({ press_releases: data });
+  }
+  render() {
+    if (typeof this.state.press_releases === `undefined`) return null;
+    console.log(this.state.press_releases);
+    const { hero_banner, press_releases_con } = this.state.press_releases;
+    return (
+      <Fragment>
+        <Header />
+        <HeroBanner data={hero_banner} />
+        <PressReleasesCon data={press_releases_con} />
+        <SubscribeToOurInsights />
+        <Footer />
+      </Fragment>
+    );
+  }
+}
 export default PressReleases;

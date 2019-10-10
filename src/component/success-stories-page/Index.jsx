@@ -1,24 +1,30 @@
-import React, { Fragment } from "react";
+import React, { Fragment, Component } from "react";
 import Header from "./../Layout/Header";
 import Footer from "./../Layout/Footer";
 import HeroBanner from "./../common/HeroBanner";
 import SuccessStoriesCon from "./partials/SuccessStoriesCon";
 import SubscribeToOurInsights from "../Layout/SubscribeToOurInsights";
-const SuccessStories = props => {
-  return (
-    <Fragment>
-      <Header />
-      <HeroBanner
-        img={`http://static1.tothenew.com/sites/default/files/styles/banner_image_inner_large/public/2016-07/Success-Stories.jpg?itok=-cwgxevq`}
-        title={`Success Stories`}
-        page="Success stories"
-        content={`Trusted by leading brands including Fortune 500 companies and Silicon Valley startups`}
-      />
-      <SuccessStoriesCon />
-      <SubscribeToOurInsights />
-      <Footer />
-    </Fragment>
-  );
-};
+import { getSuccessStories } from "../../services/SuccessStoriesService";
+class SuccessStories extends Component {
+  state = {};
+  async componentDidMount() {
+    const { data } = await getSuccessStories();
+    this.setState({ success_stories: data });
+  }
+  render() {
+    if (typeof this.state.success_stories === `undefined`) return null;
+    console.log(this.state.success_stories);
+    const { hero_banner, success_stories_con } = this.state.success_stories;
+    return (
+      <Fragment>
+        <Header />
+        <HeroBanner data={hero_banner} />
+        <SuccessStoriesCon data={success_stories_con} />
+        <SubscribeToOurInsights />
+        <Footer />
+      </Fragment>
+    );
+  }
+}
 
 export default SuccessStories;

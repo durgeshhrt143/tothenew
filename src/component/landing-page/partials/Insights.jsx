@@ -1,67 +1,26 @@
 import React from "react";
-import one from "../../../images/300_232.png";
 import { Link } from "react-router-dom";
 const Insights = props => {
+  const { main_title, content, items } = props.insights;
   return (
     <section className="is-insights">
       <div className="container">
         <div className="columns is-column has-text-centered">
-          <h3 className="column">Insights</h3>
-          <p className="column">Best of industry knowledge for you!</p>
+          <h3 className="column">{main_title}</h3>
+          <p className="column">{content}</p>
         </div>
-        <ul className="columns">
-          <li className="column">
-            <div className="is-insights-con">
-              <div>
-                <img src={one} alt="300_232" />
+        <ul className="columns is-row">
+          {items.map((c, i) => (
+            <li className="column is-3" key={i}>
+              <div className="is-insights-con">
+                <div>
+                  <img src={c.img} alt={c.alt} />
+                </div>
+                <p className="insights-heading">{c.title}</p>
+                <p className="insights-content">{c.content}</p>
               </div>
-              <p className="insights-heading">whitepaper</p>
-              <p className="insights-content">
-                [NASSCOM Whitepaper Series- I] How Is Digital Transformation
-                Reshaping Businesses To Meet The Digital Age? The Customer
-                Experience Context!
-              </p>
-            </div>
-          </li>
-          <li className="column">
-            <div className="is-insights-con">
-              <div>
-                <img src={one} alt="300_232" />
-              </div>
-              <p className="insights-heading">whitepaper</p>
-              <p className="insights-content">
-                [NASSCOM Whitepaper Series- I] How Is Digital Transformation
-                Reshaping Businesses To Meet The Digital Age? The Customer
-                Experience Context!
-              </p>
-            </div>
-          </li>
-          <li className="column">
-            <div className="is-insights-con">
-              <div>
-                <img src={one} alt="300_232" />
-              </div>
-              <p className="insights-heading">whitepaper</p>
-              <p className="insights-content">
-                [NASSCOM Whitepaper Series- I] How Is Digital Transformation
-                Reshaping Businesses To Meet The Digital Age? The Customer
-                Experience Context!
-              </p>
-            </div>
-          </li>
-          <li className="column">
-            <div className="is-insights-con">
-              <div>
-                <img src={one} alt="300_232" />
-              </div>
-              <p className="insights-heading">whitepaper</p>
-              <p className="insights-content">
-                [NASSCOM Whitepaper Series- I] How Is Digital Transformation
-                Reshaping Businesses To Meet The Digital Age? The Customer
-                Experience Context!
-              </p>
-            </div>
-          </li>
+            </li>
+          ))}
         </ul>
         <div className="columns">
           <div className="column has-text-centered">

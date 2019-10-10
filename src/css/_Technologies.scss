@@ -34,6 +34,7 @@
 .tech-title {
   font-size: 24px;
   margin-bottom: 10px;
+  color: $defaultColor;
 }
 .tech-con {
   font-size: 16px;
@@ -51,6 +52,36 @@
   font-size: 39px;
   color: $whiteColor;
 }
+.dropdown-container {
+  border-bottom: 1px solid $borderColor;
+  overflow: hidden;
+  li {
+    position: relative;
+    border-right: 1px solid $borderColor;
+    cursor: pointer;
+    &:after {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      background: url("../images/sprite.png") no-repeat -260px 11px;
+    }
+    &:last-child {
+      border-right: 0;
+    }
+  }
+  .title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 !important;
+    padding: 30px 40px;
+  }
+}
+
 .ours-partner {
   background: url("../images/partner-bg.jpg") no-repeat 0 0 / cover;
   padding: 60px 0 30px;
@@ -117,11 +148,14 @@
 .is-space-b {
   justify-content: space-between;
 }
+.is-space-a {
+  justify-content: space-around;
+}
 .founding-container {
   .container {
     @include boxShadow(0 0 7px 0 rgba(0, 0, 0, 0.2));
     padding: 40px 0;
-    margin-top: 40px;
+    margin-top: 2px;
   }
 
   .box {
@@ -158,7 +192,6 @@
   }
 }
 .leadership-container {
-  border-bottom: 1px solid $borderColor;
 }
 .partners-container {
   padding: 40px;
@@ -183,11 +216,11 @@
 }
 .press-container {
   border: 1px solid $borderColor;
+  overflow: hidden;
   li {
+    border-right: 1px solid $borderColor;
     &:last-child {
-      a {
-        border: 0;
-      }
+      border: 0;
     }
   }
 
@@ -196,7 +229,10 @@
     font-size: 20px;
     padding: 20px 0;
     color: $defaultColor;
-    border-right: 1px solid $borderColor;
+    &.active {
+      color: $pinkColor;
+    }
+
     &:hover {
       color: $pinkColor;
     }
@@ -210,7 +246,7 @@
       padding: 0;
       figure {
         margin: 0 auto;
-        background: #fff;
+        background: $whiteColor;
         padding: 1.25rem 60px;
         border-bottom: 1px solid $borderColor;
       }
@@ -267,4 +303,545 @@
     color: $defaultColor;
     padding-top: 0;
   }
+}
+.v-align {
+  align-items: center;
+}
+.csr-container {
+  .box {
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .title {
+    font-size: 20px;
+    color: $defaultColor;
+  }
+  .efforts {
+    padding: 40px 0;
+    background: $fbgColor;
+    .sub-title {
+      font-size: 20px;
+      color: $defaultColor;
+      position: relative;
+      margin-bottom: 25px;
+      &:after {
+        display: inline-block;
+        content: "";
+        height: 4px;
+        width: 50px;
+        position: absolute;
+        background: $pinkColor;
+        bottom: -12px;
+        left: 0;
+      }
+    }
+    .content {
+      font-size: 16px;
+      color: $darkgrayColor;
+    }
+  }
+  .overview {
+    padding: 40px 0;
+    p {
+      font-size: 18px;
+      color: $defaultColor;
+    }
+  }
+  .title {
+    font-size: 42px;
+    color: $defaultColor;
+    font-weight: 400;
+  }
+}
+.shadow {
+  box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.1);
+}
+.container {
+  &.inner {
+    max-width: 976px;
+  }
+}
+.CSR-initiatives-con {
+  padding: 40px 0;
+  .con {
+    border: 1px solid $defaultColor;
+    margin: 0 25px;
+  }
+  li {
+    padding: 25px 0;
+  }
+  .sub-title {
+    font-size: 20px;
+    color: $defaultColor;
+    margin-bottom: 10px !important;
+  }
+  .content {
+    font-size: 16px;
+    color: $darkgrayColor;
+  }
+  figure {
+    display: block;
+    img {
+      display: block;
+    }
+  }
+}
+.testimonials {
+  background: url("../images/csr-slider.png") no-repeat;
+  width: 100%;
+  background-size: cover;
+  min-height: 430px;
+  display: flex;
+  align-items: center;
+  .inner {
+    position: relative;
+    padding: 65px 0;
+    &:before {
+      display: inline-block;
+      content: "";
+      width: 100px;
+      height: 100px;
+      background: url("../images/right-arrow.png") no-repeat;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-position: 32px 35px;
+      transform: rotate(180deg);
+    }
+    &:after {
+      display: inline-block;
+      content: "";
+      width: 100px;
+      height: 100px;
+      background: url("../images/right-arrow.png") no-repeat;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      background-position: 32px 34px;
+    }
+  }
+  p {
+    font-size: 26px;
+    color: $whiteColor;
+  }
+  span {
+    font-size: 20px;
+    color: $whiteColor;
+  }
+}
+.tabs-title {
+  & > li {
+    font-size: 25px;
+    color: $defaultColor;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid $borderColor;
+    padding: 12px;
+    outline: none;
+    cursor: pointer;
+    &.react-tabs__tab--selected {
+      color: $pinkColor;
+    }
+  }
+}
+.tabs-title {
+  padding-right: 40px !important;
+  border-right: 1px solid $borderColor;
+}
+.is-right {
+  padding-left: 40px !important;
+}
+.query-container {
+  padding: 40px 0;
+  .title {
+    font-size: 25px;
+    color: $defaultColor;
+  }
+}
+.common {
+  .form-p {
+    margin-top: -15px;
+    font-size: 12px;
+  }
+  .columns {
+    margin-bottom: 0px !important;
+    .columns {
+      .column {
+        padding-bottom: 0px;
+      }
+      .input-field {
+        margin: 0;
+      }
+    }
+  }
+  button {
+    margin-top: 15px;
+    outline: none;
+    background: $whiteColor;
+    &:hover {
+      outline: none;
+    }
+  }
+}
+
+.alert {
+  color: $errorColor;
+  font-size: 12px;
+  text-align: left;
+}
+.job-nav-container {
+  border-bottom: 1px solid $borderColor;
+  a {
+    display: inline-block;
+    padding: 0 7px;
+    color: $defaultColor;
+    font-size: 20px;
+    text-transform: uppercase;
+    height: 71px;
+    line-height: 71px;
+    border-bottom: 4px solid transparent;
+    &.active {
+      color: $pinkColor;
+      border-bottom: 4px solid $pinkColor;
+    }
+  }
+}
+.campus-container {
+  .main-title {
+    font-size: 42px;
+    color: $defaultColor;
+  }
+}
+.li-wraper {
+  position: relative;
+  img {
+    display: block;
+  }
+  &:before {
+    background: rgba(19, 51, 101, 0.74);
+    display: inline-block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .title {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+    font-size: 20px;
+    color: $whiteColor;
+    padding: 0 0.75rem;
+  }
+}
+.campus-looking-for {
+  padding: 40px 0;
+  li {
+    border-right: 1px solid $borderColor;
+    &:last-child {
+      border: 0;
+    }
+    img {
+      margin-top: 20px;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+  }
+  .content {
+    font-size: 18px;
+    color: $defaultColor;
+  }
+  .campas-for-ul {
+    .title {
+      font-size: 20px;
+      color: $defaultColor;
+    }
+    .content {
+      font-size: 16px;
+      color: $grayColor;
+    }
+  }
+}
+.campus-for-you {
+  padding: 40px 0;
+  background: $fbgColor;
+  .main-title {
+    font-size: 42px;
+    color: $defaultColor;
+  }
+  h1 {
+    margin: 0 0 45px;
+  }
+  border-top: 1px solid $borderColor;
+  border-bottom: 1px solid $borderColor;
+}
+.campus-boost {
+  background: url("../images/career-bg.jpg") no-repeat;
+  background-size: cover;
+  min-height: 228px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 42px;
+    z-index: 99;
+    color: $whiteColor;
+    margin: 0 0 15px;
+  }
+  a {
+    min-width: 150px;
+    font-size: 20px;
+    color: $whiteColor;
+    border: 2px solid $whiteColor;
+    z-index: 99;
+    &:hover {
+      text-decoration: none;
+      border: 2px solid $pinkColor;
+      background: $pinkColor;
+      color: $whiteColor;
+    }
+  }
+  &:before {
+    background: rgba(19, 51, 101, 0.74);
+    display: inline-block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+.newers-conatiner {
+  .campus-for-you {
+    background: $whiteColor;
+  }
+}
+
+.jobs-new-world {
+  padding: 40px 0;
+  background: $fbgColor;
+  .main-content {
+    font-size: 18px;
+    max-width: 994px;
+    margin: 0 auto;
+    color: $defaultColor;
+  }
+}
+.newers-conatiner {
+  &.active {
+    .learning {
+      transform: translateX(228px);
+    }
+    .fun {
+      transform: translateX(-228px);
+    }
+  }
+}
+
+.learnings {
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  .learning {
+    background: url("../images/learning.png") no-repeat center 0;
+  }
+  .growth {
+    background: url("../images/growth.png") no-repeat center 0;
+  }
+  .fun {
+    background: url("../images/fun.png") no-repeat center 0;
+  }
+  .column {
+    width: 254px;
+    height: 254px;
+    overflow: hidden;
+    text-indent: -1000px;
+    position: relative;
+    display: inline-block;
+    transition: transform 0.8s ease-in-out;
+  }
+}
+.jobs-growth {
+  padding: 40px 0;
+  background: $fbgColor;
+  border-bottom: 1px solid $borderColor;
+  .box {
+    border-radius: 0;
+    box-shadow: none;
+    padding-top: 0px;
+    padding-bottom: 0.75rem;
+    img {
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+    .title {
+      font-size: 14px;
+      margin: 5px 0;
+      font-weight: 200;
+      color: $pinkColor;
+    }
+    p {
+      color: $defaultColor;
+      font-size: 16px;
+      margin: 0;
+      &:first-child {
+        font-style: italic;
+      }
+      &:last-child {
+        color: $darkgrayColor;
+        font-size: 14px;
+      }
+    }
+  }
+  .main-title {
+    font-size: 42px;
+    color: $defaultColor;
+  }
+  .main-content {
+    font-size: 18px;
+    color: $defaultColor;
+    line-height: 1.5;
+    max-width: 994px;
+    margin: 0 auto;
+  }
+}
+.funtothenew-container {
+  padding: 40px 0;
+  border-bottom: 1px solid $borderColor;
+  .title {
+    font-size: 42px;
+    color: $defaultColor;
+  }
+  .content {
+    font-size: 18px;
+    color: $defaultColor;
+    line-height: 1.5;
+    max-width: 994px;
+    margin: 0 auto;
+  }
+}
+.wrapper-container {
+  position: relative;
+  .scrollV {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+}
+.modal {
+  transform: scale(0);
+  transition: transform 0.5s ease-in-out;
+  .msg {
+    font-size: 12px;
+    text-align: left;
+    color: $grayColor;
+  }
+  &.is-active {
+    transform: scale(1);
+  }
+  .input-field {
+    position: relative;
+    margin: 0px;
+  }
+  .title {
+    font-size: 42px;
+    margin: 0px !important;
+  }
+  button {
+    outline: none;
+    background: $whiteColor;
+  }
+  .content {
+    font-size: 16px;
+    color: $darkgrayColor;
+  }
+  .innerContainer {
+    position: relative;
+  }
+  .close {
+    position: absolute;
+    right: 9px;
+    top: 36px;
+    width: 40px;
+    height: 40px;
+    font-size: 0px;
+    cursor: pointer;
+    &:before {
+      display: inline-block;
+      content: "";
+      width: 30px;
+      height: 2px;
+      background: $defaultColor;
+      transform: rotate(45deg) translate(4px, 4px);
+    }
+    &:after {
+      display: inline-block;
+      content: "";
+      width: 30px;
+      height: 2px;
+      background: $defaultColor;
+      transform: rotate(-45deg) translate(-2px, 3px);
+    }
+  }
+}
+.input-field {
+  position: relative;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  & > label {
+    color: $defaultColor;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1rem;
+    cursor: text;
+    -webkit-transition: color 0.2s ease-out, -webkit-transform 0.2s ease-out;
+    transition: color 0.2s ease-out, -webkit-transform 0.2s ease-out;
+    transition: transform 0.2s ease-out, color 0.2s ease-out;
+    transition: transform 0.2s ease-out, color 0.2s ease-out,
+      -webkit-transform 0.2s ease-out;
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    text-align: initial;
+    -webkit-transform: translateY(12px);
+    transform: translateY(12px);
+    &.active {
+      -webkit-transform-origin: 0 0;
+      transform-origin: 0 0;
+      -webkit-transform: translateY(-14px) scale(0.8);
+      transform: translateY(-14px) scale(0.8);
+      color: #bbb;
+    }
+  }
+}
+input[type="text"] {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid $defaultColor;
+  border-radius: 0;
+  outline: none;
+  height: 3rem;
+  width: 100%;
+  font-size: 16px;
+  margin: 0 0 5px;
+  padding: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-transition: border 0.3s, -webkit-box-shadow 0.3s;
+  transition: border 0.3s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, border 0.3s;
+  transition: box-shadow 0.3s, border 0.3s, -webkit-box-shadow 0.3s;
 }

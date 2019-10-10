@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.onScroll = this.onScroll.bind(this);
+  }
   state = {
     scrolled: false,
     toggle: false
@@ -11,17 +15,19 @@ class Header extends Component {
     this.setState({ toggle: toggleClass });
   };
   async componentDidMount() {
-    window.addEventListener("scroll", () => {
-      const isTop = window.scrollY < 100;
-      if (isTop !== true) {
-        this.setState({ scrolled: true });
-      } else {
-        this.setState({ scrolled: false });
-      }
-    });
+    window.scrollTo(0, 0);
+    window.addEventListener("scroll", this.onScroll, false);
   }
   componentWillUnmount() {
-    window.removeEventListener("scroll", () => {});
+    window.removeEventListener("scroll", this.onScroll, false);
+  }
+  onScroll() {
+    const isTop = window.scrollY < 100;
+    if (isTop !== true) {
+      this.setState({ scrolled: true });
+    } else {
+      this.setState({ scrolled: false });
+    }
   }
   render() {
     return (
