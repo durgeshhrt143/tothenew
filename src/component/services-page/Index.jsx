@@ -5,21 +5,18 @@ import HeroBanner from "./../common/HeroBanner";
 import ServicesCon from "./partials/ServicesCon";
 import LookExpertServices from "./partials/LookingExpertServices";
 import SubscribeToOurInsights from "../Layout/SubscribeToOurInsights";
-import { getServices } from "./../../services/ServicesService";
+import { connect } from "react-redux";
+import * as actionCreater from "../../store/actions/index";
 class Services extends Component {
-  state = {};
-  async componentDidMount() {
-    const { data } = await getServices();
-    this.setState({ services: data });
+  constructor(props) {
+    super(props);
+    this.props.onLoadServices();
   }
+  state = {};
   render() {
-    if (typeof this.state.services === `undefined`) return null;
-    console.log(this.state.services);
-    const {
-      hero_banner,
-      services_con,
-      look_expert_services
-    } = this.state.services;
+    if (Object.keys(this.props.data).length === 0) return null;
+    console.log(this.props.data);
+    const { hero_banner, services_con, look_expert_services } = this.props.data;
     return (
       <Fragment>
         <Header />
@@ -32,5 +29,15 @@ class Services extends Component {
     );
   }
 }
-
-export default Services;
+const mapStateToProp = state => {
+  return { data: state.services.data };
+};
+const mapDispatchToProps = dispatch => {
+  return {
+    onLoadServices: () => dispatch(actionCreater.API_SERVICE())
+  };
+};
+export default connect(
+  mapStateToProp,
+  mapDispatchToProps
+)(Services);

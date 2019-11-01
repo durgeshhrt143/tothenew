@@ -5,16 +5,17 @@ import HeroBanner from "./../common/HeroBanner";
 import MediaCoverageCon from "./partials/MediaCoverageCon";
 import SubscribeToOurInsights from "./../Layout/SubscribeToOurInsights";
 import { getMediaCoverage } from "../../services/MediaCoverageService";
+import * as actionCreator from "../../store/actions/index";
+import { connect } from "react-redux";
 class MediaCoverage extends Component {
-  state = {};
-  async componentDidMount() {
-    const { data } = await getMediaCoverage();
-    this.setState({ media_coverage: data });
+  constructor(props) {
+    super(props);
+    this.props.onLoadMediaCoverage();
   }
   render() {
-    if (typeof this.state.media_coverage === `undefined`) return null;
-    console.log(this.state.media_coverage);
-    const { hero_banner, media_coverage_con } = this.state.media_coverage;
+    if (Object.keys(this.props.data).length === 0) return null;
+    console.log(this.props.data);
+    const { hero_banner, media_coverage_con } = this.props.data;
     return (
       <Fragment>
         <Header />
@@ -26,4 +27,17 @@ class MediaCoverage extends Component {
     );
   }
 }
-export default MediaCoverage;
+const mapStateToProps = state => {
+  return {
+    data: state.media_coverage.data
+  };
+};
+const mapDispatchToProps = dispatch => {
+  return {
+    onLoadMediaCoverage: () => dispatch(actionCreator.API_MEDIA_COVERAGE())
+  };
+};
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(MediaCoverage);

@@ -9,26 +9,28 @@ import Insights from "./partials/Insights";
 import OurClients from "./../common/OurClients";
 import SubscribeToOurInsights from "./../Layout/SubscribeToOurInsights";
 import img from "../../images/arrow-down.png";
-import { getHome } from "./../../services/HomeService";
+import { connect } from "react-redux";
+import * as actionCreater from "../../store/actions/index";
+
 class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.props.onLoadHome();
+  }
   scrollSliderHandler = () => {
     window.scrollTo(0, window.innerHeight);
   };
-  state = {};
-  async componentDidMount() {
-    const { data } = await getHome();
-    this.setState({ home: data });
-  }
+
   render() {
-    if (typeof this.state.home === `undefined`) return null;
-    console.log(this.state.home);
+    if (Object.keys(this.props.data).length === 0) return null;
+    console.log(this.props.data);
     const {
       slider_arr,
       slider_below,
       technologies,
       success_stories,
       insights
-    } = this.state.home;
+    } = this.props.data;
     return (
       <Fragment>
         <div className="parent">
@@ -51,5 +53,15 @@ class Home extends Component {
     );
   }
 }
-
-export default Home;
+const mapStateToProp = state => {
+  return { data: state.home.data };
+};
+const mapDispatchToProps = dispatch => {
+  return {
+    onLoadHome: () => dispatch(actionCreater.API_HOME())
+  };
+};
+export default connect(
+  mapStateToProp,
+  mapDispatchToProps
+)(Home);

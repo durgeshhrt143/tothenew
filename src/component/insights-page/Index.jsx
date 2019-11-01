@@ -4,17 +4,17 @@ import Footer from "./../Layout/Footer";
 import HeroBanner from "./../common/HeroBanner";
 import InsightsCon from "./../insights-page/partials/InsightsCon";
 import SubscribeToOurInsights from "../Layout/SubscribeToOurInsights";
-import { getInsights } from "../../services/InsightsService";
+import * as actionCreator from "../../store/actions/index";
+import { connect } from "react-redux";
 class Insights extends Component {
-  state = {};
-  async componentDidMount() {
-    const { data } = await getInsights();
-    this.setState({ insights: data });
+  constructor(props) {
+    super(props);
+    this.props.onLoadInsights();
   }
   render() {
-    if (typeof this.state.insights === `undefined`) return null;
-    console.log(this.state.insights);
-    const { hero_banner, insights_con } = this.state.insights;
+    if (Object.keys(this.props.data).length === 0) return null;
+    console.log(this.props.data);
+    const { hero_banner, insights_con } = this.props.data;
     return (
       <Fragment>
         <Header />
@@ -26,4 +26,15 @@ class Insights extends Component {
     );
   }
 }
-export default Insights;
+const mapStateToProps = state => {
+  return { data: state.insights.data };
+};
+const mapDispatchToProps = dispatch => {
+  return {
+    onLoadInsights: () => dispatch(actionCreator.API_INSIGHTS())
+  };
+};
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Insights);

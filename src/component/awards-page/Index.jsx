@@ -4,17 +4,16 @@ import Footer from "./../Layout/Footer";
 import HeroBanner from "./../common/HeroBanner";
 import AwardsCon from "./partials/AwardsCon";
 import SubscribeToOurInsights from "./../Layout/SubscribeToOurInsights";
-import { getAwards } from "../../services/AwardsService";
+import { connect } from "react-redux";
+import * as actionCreator from "../../store/actions/index";
 class Awards extends Component {
-  state = {};
-  async componentDidMount() {
-    const { data } = await getAwards();
-    this.setState({ awards: data });
+  constructor(props) {
+    super(props);
+    this.props.onLoadAwards();
   }
   render() {
-    if (typeof this.state.awards === `undefined`) return null;
-    console.log(this.state.awards);
-    const { hero_banner, awards_con } = this.state.awards;
+    if (Object.keys(this.props.data).length === 0) return null;
+    const { hero_banner, awards_con } = this.props.data;
     return (
       <Fragment>
         <Header />
@@ -26,4 +25,13 @@ class Awards extends Component {
     );
   }
 }
-export default Awards;
+const mapStateToProps = state => {
+  return { data: state.awards.data };
+};
+const mapDispatchToProps = dispatch => {
+  return { onLoadAwards: () => dispatch(actionCreator.API_AWARDS()) };
+};
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Awards);

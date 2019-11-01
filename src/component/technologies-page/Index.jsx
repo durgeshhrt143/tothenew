@@ -5,21 +5,21 @@ import HeroBanner from "./../common/HeroBanner";
 import TechnologyCon from "./partials/TechnologyCon";
 import SubscribeToOurInsights from "../Layout/SubscribeToOurInsights";
 import LookExpertServices from "./partials/LookExpertServices";
-import { getTechnologies } from "../../services/technologiesService";
+import * as actionCreator from "../../store/actions/index";
+import { connect } from "react-redux";
 class Technologies extends Component {
-  state = {};
-  async componentDidMount() {
-    const { data } = await getTechnologies();
-    this.setState({ technologies: data });
+  constructor(props) {
+    super(props);
+    this.props.onLoadTechnologies();
   }
   render() {
-    if (typeof this.state.technologies === `undefined`) return null;
-    console.log(this.state.technologies);
+    if (Object.keys(this.props.data).length === 0) return null;
+    console.log(this.props.data);
     const {
       hero_banner,
       technology_con,
       look_expert_services
-    } = this.state.technologies;
+    } = this.props.data;
     return (
       <Fragment>
         <Header />
@@ -32,4 +32,15 @@ class Technologies extends Component {
     );
   }
 }
-export default Technologies;
+const mapStateToProps = state => {
+  return { data: state.technologies.data };
+};
+const mapDispatchToProps = dispatch => {
+  return {
+    onLoadTechnologies: () => dispatch(actionCreator.API_TECHNOLOGIES())
+  };
+};
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Technologies);

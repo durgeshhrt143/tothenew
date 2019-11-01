@@ -1,11 +1,11 @@
-import * as actionType from "../actions/actionTypes";
+import * as actionTypes from "../actions/actionTypes";
 import { updateObject } from "../utility";
-const initialStore = {
+const initialState = {
   data: {}
 };
-const home = (state = initialStore, action) => {
+const career = (state = initialState, action) => {
   switch (action.type) {
-    case actionType.HOME_PAGE:
+    case actionTypes.CAREER_PAGE:
       const newData = action.data;
       return updateObject(state, { data: newData });
     default:
@@ -13,4 +13,4 @@ const home = (state = initialStore, action) => {
   }
 };
 
-export default home;
+export default career;

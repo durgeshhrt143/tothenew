@@ -4,17 +4,18 @@ import Footer from "./../Layout/Footer";
 import SubscribeToOurInsights from "./../Layout/SubscribeToOurInsights";
 import HeroBanner from "./../common/HeroBanner";
 import PartnersCon from "./partials/PartnersCon";
-import { getPartnership } from "../../services/PartnershipService";
+import * as actionCreator from "../../store/actions/index";
+import { connect } from "react-redux";
+// import { getPartnership } from "../../services/PartnershipService";
 class Partnership extends Component {
-  state = {};
-  async componentDidMount() {
-    const { data } = await getPartnership();
-    this.setState({ partnership: data });
+  constructor(props) {
+    super(props);
+    this.props.onLoadPartnership();
   }
   render() {
-    if (typeof this.state.partnership === `undefined`) return null;
-    console.log(this.state.partnership);
-    const { hero_banner, partners_con } = this.state.partnership;
+    if (Object.keys(this.props.data).length === 0) return null;
+    console.log(this.props.data);
+    const { hero_banner, partners_con } = this.props.data;
     return (
       <Fragment>
         <Header />
@@ -26,4 +27,17 @@ class Partnership extends Component {
     );
   }
 }
-export default Partnership;
+const mapStateToProps = state => {
+  return {
+    data: state.partnership.data
+  };
+};
+const mapDispatchToProps = dispatch => {
+  return {
+    onLoadPartnership: () => dispatch(actionCreator.API_PARTNERSHIP())
+  };
+};
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Partnership);

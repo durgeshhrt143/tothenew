@@ -1,1 +1,16 @@
-export { home } from "../actions/home";
+export { fetchData as API_HOME } from "../actions/home";
+export { fetchData as API_SERVICE } from "../actions/services";
+export { fetchData as API_INDUSTRIES } from "../actions/industries";
+export { fetchData as API_SOLUTIONS } from "../actions/solutions";
+export { fetchData as API_TECHNOLOGIES } from "../actions/technologies";
+export { fetchData as API_SUCCESS_STORIES } from "../actions/success_stories";
+export { fetchData as API_INSIGHTS } from "../actions/insights";
+export { fetchData as API_CAREER } from "../actions/career";
+export { fetchData as API_CONTACT } from "../actions/contact_us";
+export { fetchData as API_ABOUT } from "../actions/about_us";
+export { fetchData as API_LEADERSHIP } from "../actions/leadership";
+export { fetchData as API_PARTNERSHIP } from "../actions/partnership";
+export { fetchData as API_PRESSRELEASES } from "../actions/press_releases";
+export { fetchData} from "../actions/events";
+export { fetchData as API_MEDIA_COVERAGE } from "../actions/media_coverage";
+export { fetchData as API_AWARDS } from "../actions/awards";

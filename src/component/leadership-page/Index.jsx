@@ -4,23 +4,24 @@ import Footer from "./../Layout/Footer";
 import HeroBanner from "./../common/HeroBanner";
 import SubscribeToOurInsights from "./../Layout/SubscribeToOurInsights";
 import FoundingTeam from "./partials/FoundingTeam";
-import { getLeadership } from "../../services/LeadershipService";
+// import { getLeadership } from "../../services/LeadershipService";
+import { connect } from "react-redux";
+import * as actionCreator from "../../store/actions/index";
 class Leadership extends Component {
-  state = {};
-  async componentDidMount() {
-    const { data } = await getLeadership();
-    this.setState({ leadership: data });
+  constructor(props) {
+    super(props);
+    this.props.onLoadLeadership();
   }
   render() {
-    if (typeof this.state.leadership === `undefined`) return null;
-    console.log(this.state.leadership);
+    if (Object.keys(this.props.data).length === 0) return null;
+    console.log(this.props.data);
     const {
       hero_banner,
       founding_team,
       delivery_leadership,
       sales_team,
       enabling_functions
-    } = this.state.leadership;
+    } = this.props.data;
     return (
       <Fragment>
         <Header />
@@ -35,4 +36,17 @@ class Leadership extends Component {
     );
   }
 }
-export default Leadership;
+const mapStateToProps = state => {
+  return {
+    data: state.leadership.data
+  };
+};
+const mapDispatchToProps = dispatch => {
+  return {
+    onLoadLeadership: () => dispatch(actionCreator.API_LEADERSHIP())
+  };
+};
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Leadership);

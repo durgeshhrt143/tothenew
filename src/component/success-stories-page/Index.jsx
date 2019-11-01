@@ -4,17 +4,17 @@ import Footer from "./../Layout/Footer";
 import HeroBanner from "./../common/HeroBanner";
 import SuccessStoriesCon from "./partials/SuccessStoriesCon";
 import SubscribeToOurInsights from "../Layout/SubscribeToOurInsights";
-import { getSuccessStories } from "../../services/SuccessStoriesService";
+import * as actionCreator from "../../store/actions/index";
+import { connect } from "react-redux";
 class SuccessStories extends Component {
-  state = {};
-  async componentDidMount() {
-    const { data } = await getSuccessStories();
-    this.setState({ success_stories: data });
+  constructor(props) {
+    super(props);
+    this.props.onLoadSuccessStories();
   }
   render() {
-    if (typeof this.state.success_stories === `undefined`) return null;
-    console.log(this.state.success_stories);
-    const { hero_banner, success_stories_con } = this.state.success_stories;
+    if (Object.keys(this.props.data).length === 0) return null;
+    console.log(this.props.data);
+    const { hero_banner, success_stories_con } = this.props.data;
     return (
       <Fragment>
         <Header />
@@ -26,5 +26,15 @@ class SuccessStories extends Component {
     );
   }
 }
-
-export default SuccessStories;
+const mapStateToProps = state => {
+  return { data: state.success_stories.data };
+};
+const mapDispatchToProps = dispatch => {
+  return {
+    onLoadSuccessStories: () => dispatch(actionCreator.API_SUCCESS_STORIES())
+  };
+};
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(SuccessStories);

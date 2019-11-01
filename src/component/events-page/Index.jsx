@@ -4,17 +4,17 @@ import Footer from "./../Layout/Footer";
 import HeroBanner from "./../common/HeroBanner";
 import EventsCon from "./partials/EventsCon";
 import SubscribeToOurInsights from "./../Layout/SubscribeToOurInsights";
-import { getEvents } from "../../services/EventsService";
+import { connect } from "react-redux";
+import * as actionCreator from "../../store/actions/events";
 class Events extends Component {
-  state = {};
-  async componentDidMount() {
-    const { data } = await getEvents();
-    this.setState({ events: data });
+  constructor(props) {
+    super(props);
+    this.props.onLoadEvents();
   }
   render() {
-    if (typeof this.state.events === `undefined`) return null;
-    console.log(this.state.events);
-    const { hero_banner, events_con } = this.state.events;
+    if (Object.keys(this.props.data).length === 0) return null;
+    console.log(this.props.data);
+    const { hero_banner, events_con } = this.props.data;
     return (
       <Fragment>
         <Header />
@@ -26,4 +26,13 @@ class Events extends Component {
     );
   }
 }
-export default Events;
+const mapStateToProps = state => {
+  return { data: state.events.data };
+};
+const mapDispatchToProps = dispatch => {
+  return { onLoadEvents: () => dispatch(actionCreator.fetchData()) };
+};
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Events);

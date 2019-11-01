@@ -4,17 +4,17 @@ import Footer from "./../Layout/Footer";
 import SubscribeToOurInsights from "./../Layout/SubscribeToOurInsights";
 import HeroBanner from "./../common/HeroBanner";
 import PressReleasesCon from "./partials/PressReleasesCon";
-import { getPressReleasesService } from "../../services/PressReleasesService";
+import * as actionCreator from "../../store/actions/index";
+import { connect } from "react-redux";
 class PressReleases extends Component {
-  state = {};
-  async componentDidMount() {
-    const { data } = await getPressReleasesService();
-    this.setState({ press_releases: data });
+  constructor(props) {
+    super(props);
+    this.props.onLoadPressReleases();
   }
   render() {
-    if (typeof this.state.press_releases === `undefined`) return null;
-    console.log(this.state.press_releases);
-    const { hero_banner, press_releases_con } = this.state.press_releases;
+    if (Object.keys(this.props.data).length === 0) return null;
+    console.log(this.props.data);
+    const { hero_banner, press_releases_con } = this.props.data;
     return (
       <Fragment>
         <Header />
@@ -26,4 +26,15 @@ class PressReleases extends Component {
     );
   }
 }
-export default PressReleases;
+const mapStateToProps = state => {
+  return { data: state.press_releases.data };
+};
+const mapDispatchToProps = dispatch => {
+  return {
+    onLoadPressReleases: () => dispatch(actionCreator.API_PRESSRELEASES())
+  };
+};
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(PressReleases);

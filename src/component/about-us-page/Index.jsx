@@ -7,16 +7,17 @@ import SubscribeToOurInsights from "./../Layout/SubscribeToOurInsights";
 import OurClients from "./../common/OurClients";
 import WhoWeAre from "./partials/WhoWeAre";
 import MediaCoverage from "./partials/MediaCoverage";
-import { getAbout } from "../../services/AboutService";
+import { connect } from "react-redux";
+import * as actionCreator from "../../store/actions/index";
+import { type } from "os";
 class AboutUs extends Component {
-  state = {};
-  async componentDidMount() {
-    const { data } = await getAbout();
-    this.setState({ about_us: data });
+  constructor(props) {
+    super(props);
+    this.props.onLoadAbout();
   }
   render() {
-    if (typeof this.state.about_us === `undefined`) return null;
-    console.log(this.state.about_us);
+    if (Object.keys(this.props.data).length === 0) return null;
+    console.log(this.props.data);
     const {
       hero_banner,
       who_we_are,
@@ -24,7 +25,7 @@ class AboutUs extends Component {
       our_partners,
       events,
       media_coverage
-    } = this.state.about_us;
+    } = this.props.data;
     return (
       <Fragment>
         <Header />
@@ -42,4 +43,15 @@ class AboutUs extends Component {
     );
   }
 }
-export default AboutUs;
+const mapStateToProps = state => {
+  return {
+    data: state.about.data
+  };
+};
+const mapDispatchToProps = dispatch => {
+  return { onLoadAbout: () => dispatch(actionCreator.API_ABOUT()) };
+};
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(AboutUs);

@@ -8,17 +8,17 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import ServiceForm from "./partials/ServiceForm";
 import JoinTeamForm from "./partials/JoinTeamForm";
 import MediaQueryForm from "./partials/MediaQueryForm";
-import { getContact } from "../../services/ContactService";
+import { connect } from "react-redux";
+import * as actionCreater from "../../store/actions/index";
 class ContactUs extends Component {
-  state = {};
-  async componentDidMount() {
-    const { data } = await getContact();
-    this.setState({ contact_us: data });
+  constructor(props) {
+    super(props);
+    this.props.onLoadContact();
   }
   render() {
-    if (typeof this.state.contact_us === `undefined`) return null;
-    console.log(this.state.contact_us);
-    const { hero_banner } = this.state.contact_us;
+    if (Object.keys(this.props.data).length === 0) return null;
+    console.log(this.props.data);
+    const { hero_banner } = this.props.data;
     return (
       <Fragment>
         <Header />
@@ -59,4 +59,13 @@ class ContactUs extends Component {
     );
   }
 }
-export default ContactUs;
+const mapStateToProps = state => {
+  return { data: state.contact.data };
+};
+const mapDispatchToProps = dispatch => {
+  return { onLoadContact: () => dispatch(actionCreater.API_CONTACT()) };
+};
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(ContactUs);

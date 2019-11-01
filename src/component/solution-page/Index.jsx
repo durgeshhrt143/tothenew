@@ -5,21 +5,19 @@ import HeroBanner from "./../common/HeroBanner";
 import SolutionCon from "./partials/SolutionCon";
 import LookExpertServices from "./partials/LookExpertServices";
 import SubscribeToOurInsights from "../Layout/SubscribeToOurInsights";
-import { getSolutions } from "../../services/SolutionsService";
+// import { getSolutions } from "../../services/SolutionsService";
+import { connect } from "react-redux";
+import * as actionCreater from "../../store/actions/index";
 class Solutions extends Component {
-  state = {};
-  async componentDidMount() {
-    const { data } = await getSolutions();
-    this.setState({ solutions: data });
+  constructor(props) {
+    super(props);
+    this.props.onLoadSolutions();
   }
+
   render() {
-    if (typeof this.state.solutions === `undefined`) return null;
-    console.log(this.state.solutions);
-    const {
-      hero_banner,
-      solution_con,
-      look_expert_service
-    } = this.state.solutions;
+    if (Object.keys(this.props.data).length === 0) return null;
+    console.log(this.props.data);
+    const { hero_banner, solution_con, look_expert_service } = this.props.data;
     return (
       <Fragment>
         <Header />
@@ -32,5 +30,13 @@ class Solutions extends Component {
     );
   }
 }
-
-export default Solutions;
+const mapStateToProps = state => {
+  return { data: state.solutions.data };
+};
+const mapDispatchToProps = dispatch => {
+  return { onLoadSolutions: () => dispatch(actionCreater.API_SOLUTIONS()) };
+};
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Solutions);

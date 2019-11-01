@@ -5,17 +5,17 @@ import HeroBanner from "./../common/HeroBanner";
 import SubscribeToOurInsights from "../Layout/SubscribeToOurInsights";
 import JobsCon from "./partials/JobsCon";
 import JobsNav from "./../common/JobsNav";
-import { getCareer } from "../../services/CareerService";
+import * as actionCreator from "../../store/actions/index";
+import { connect } from "react-redux";
 class Jobs extends Component {
-  state = {};
-  async componentDidMount() {
-    const { data } = await getCareer();
-    this.setState({ jobs: data });
+  constructor(props) {
+    super(props);
+    this.props.onLoadCareer();
   }
   render() {
-    if (typeof this.state.jobs === `undefined`) return null;
-    console.log(this.state.jobs);
-    const { hero_banner, jobs_con } = this.state.jobs;
+    if (Object.keys(this.props.data).length === 0) return null;
+    console.log(this.props.data);
+    const { hero_banner, jobs_con } = this.props.data;
     return (
       <Fragment>
         <Header />
@@ -28,4 +28,13 @@ class Jobs extends Component {
     );
   }
 }
-export default Jobs;
+const mapStateToProps = state => {
+  return { data: state.career.data };
+};
+const mapDispatchToProps = dispatch => {
+  return { onLoadCareer: () => dispatch(actionCreator.API_CAREER()) };
+};
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Jobs);

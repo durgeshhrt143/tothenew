@@ -3,9 +3,9 @@ import { updateObject } from "../utility";
 const initialStore = {
   data: {}
 };
-const home = (state = initialStore, action) => {
+const services = (state = initialStore, action) => {
   switch (action.type) {
-    case actionType.HOME_PAGE:
+    case actionType.SERVICES_PAGE:
       const newData = action.data;
       return updateObject(state, { data: newData });
     default:
@@ -13,4 +13,4 @@ const home = (state = initialStore, action) => {
   }
 };
 
-export default home;
+export default services;
